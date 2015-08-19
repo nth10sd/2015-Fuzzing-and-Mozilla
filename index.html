@@ -39,7 +39,7 @@
     </header>
     <aside class="talkdescription">
       This is still a DRAFT. (see the language menu for more info on which versions are drafts)
-      <div class="en-US">This presentation describes the state of fuzzing in Mozilla in 2015, in particular where fuzzing sits in a Mozilla development workflow. It will mention how you can leverage it in your workflow to make development more efficient, and will not cover fuzzing itself in detail.</div>
+      <div class="en-US">This presentation describes where fuzzing sits in a Mozilla development workflow in 2015. It will mention how you can leverage it in your workflow to make development more efficient, and will not cover fuzzing itself in detail.</div>
       <div class="zh-CN">这是中文（简体）。</div>
       <div class="zh-TW">這是中文（繁體）。</div>
       <div class="ja-JP">これは日本語です。</div>
@@ -53,7 +53,7 @@
         <strong>Abstract: </strong>
         The Mozilla Gecko platform has many moving parts. With the move into Firefox OS, there are increasingly more areas which need testing to ensure good quality and safety of the users.
         In this presentation, Senior Security Engineer Gary Kwong will describe how fuzzing can be leveraged in the Mozilla development workflow. Gary will talk about fuzzing tools, suggested automation building blocks and ways to start deploying fuzzing quickly.
-        A case study on the success of the fuzzing team working together with the JavaScript Engine team will be described. Furthermore, he will also cover the potential pitfalls of this approach and assumptions that have to hold for this to be successful.
+        A case study on the success of the fuzzing team working together with the JavaScript Engine team will be described. Furthermore, he will also cover the potential pitfalls of this approach and conditions under which fuzzing can be most effective.
       </p>
     </aside>
     <!--
@@ -100,108 +100,19 @@
             <div class="ja-JP">これは日本語です。</div>
           </li>
           <li>
-            <div class="en-US">Mozilla Platform Fuzzing team</div>
-            <div class="zh-CN">什么是模糊测试？</div>
-            <div class="zh-TW">什麼是模糊測試？</div>
-            <div class="ja-JP">これは日本語です。</div>
-          </li>
-          <li>
-            <div class="en-US">Fuzzing tools</div>
-            <div class="zh-CN">什么是模糊测试？</div>
-            <div class="zh-TW">什麼是模糊測試？</div>
-            <div class="ja-JP">これは日本語です。</div>
-          </li>
-          <li>
-            <div class="en-US">Fuzzing techniques</div>
-            <div class="zh-CN">什么是模糊测试？</div>
-            <div class="zh-TW">什麼是模糊測試？</div>
-            <div class="ja-JP">これは日本語です。</div>
-          </li>
-          <li>
             <div class="en-US">Why is fuzzing successful?</div>
             <div class="zh-CN">什么是模糊测试？</div>
             <div class="zh-TW">什麼是模糊測試？</div>
             <div class="ja-JP">これは日本語です。</div>
           </li>
           <li>
-            <div class="en-US">Recommended workflow with fuzzing</div>
+            <div class="en-US">What parts of Firefox OS to fuzz?</div>
             <div class="zh-CN">什么是模糊测试？</div>
             <div class="zh-TW">什麼是模糊測試？</div>
             <div class="ja-JP">これは日本語です。</div>
           </li>
           <li>
-            <div class="en-US">Suggested automation building blocks</div>
-            <div class="zh-CN">什么是模糊测试？</div>
-            <div class="zh-TW">什麼是模糊測試？</div>
-            <div class="ja-JP">これは日本語です。</div>
-          </li>
-          <li>
-            <div class="en-US">Potential hosts / targets</div>
-            <div class="zh-CN">什么是模糊测试？</div>
-            <div class="zh-TW">什麼是模糊測試？</div>
-            <div class="ja-JP">これは日本語です。</div>
-          </li>
-        </ul>
-        <footer class="notes">
-        </footer>
-      </section>
-    </div></div>
-    <!-- end slide block -->
-    <div id="agenda2" class="slide"><div>
-      <section>
-        <header>
-          <h2>
-          <div class="en-US">Agenda (cont'd)</div>
-          <div class="zh-CN">大纲</div>
-          <div class="zh-TW">大綱</div>
-          <div class="ja-JP">これは日本語です。</div>
-          </h2>
-        </header>
-        <ul>
-          <li>
-            <div class="en-US">Suggested low-hanging fruit</div>
-            <div class="zh-CN">什么是模糊测试？</div>
-            <div class="zh-TW">什麼是模糊測試？</div>
-            <div class="ja-JP">これは日本語です。</div>
-          </li>
-          <li>
-            <div class="en-US">marifuzz PoC demo</div>
-            <div class="zh-CN">什么是模糊测试？</div>
-            <div class="zh-TW">什麼是模糊測試？</div>
-            <div class="ja-JP">これは日本語です。</div>
-          </li>
-          <li>
-            <div class="en-US">Case study: JavaScript team</div>
-            <div class="zh-CN">什么是模糊测试？</div>
-            <div class="zh-TW">什麼是模糊測試？</div>
-            <div class="ja-JP">これは日本語です。</div>
-          </li>
-          <li>
-            <div class="en-US">Working as a team</div>
-            <div class="zh-CN">什么是模糊测试？</div>
-            <div class="zh-TW">什麼是模糊測試？</div>
-            <div class="ja-JP">これは日本語です。</div>
-          </li>
-          <li>
-            <div class="en-US">Results</div>
-            <div class="zh-CN">什么是模糊测试？</div>
-            <div class="zh-TW">什麼是模糊測試？</div>
-            <div class="ja-JP">これは日本語です。</div>
-          </li>
-          <li>
-            <div class="en-US">Potential difficulties</div>
-            <div class="zh-CN">什么是模糊测试？</div>
-            <div class="zh-TW">什麼是模糊測試？</div>
-            <div class="ja-JP">これは日本語です。</div>
-          </li>
-          <li>
-            <div class="en-US">Assumptions about workflow</div>
-            <div class="zh-CN">什么是模糊测试？</div>
-            <div class="zh-TW">什麼是模糊測試？</div>
-            <div class="ja-JP">これは日本語です。</div>
-          </li>
-          <li>
-            <div class="en-US">How the fuzzing team can assist</div>
+            <div class="en-US">Tips for effective fuzzing</div>
             <div class="zh-CN">什么是模糊测试？</div>
             <div class="zh-TW">什麼是模糊測試？</div>
             <div class="ja-JP">これは日本語です。</div>
@@ -324,7 +235,7 @@
         </li>
       </ul>
       <footer class="notes">
-        Helps find memory safety problems, thread races, use-after-frees and buffer overflows.
+        These tools help find memory safety problems, thread races, use-after-frees and buffer overflows.
       </footer>
     </section>
   </div></div>
@@ -425,47 +336,6 @@
     </section>
   </div></div>
   <!-- end slide block -->
-  <div id="techniques" class="slide"><div>
-    <section>
-      <header>
-        <h2>
-        <div class="en-US">Fuzzing techniques</div>
-        <div class="zh-CN">模糊测试技巧</div>
-        <div class="zh-TW">模糊測試技巧</div>
-        <div class="ja-JP">これは日本語です。</div>
-        </h2>
-      </header>
-      <ul>
-        <li>
-          <div class="en-US">Generational</div>
-          <div class="zh-CN">生成测试</div>
-          <div class="zh-TW">生成測試</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-        <li>
-          <div class="en-US">Mutational</div>
-          <div class="zh-CN">变异测试</div>
-          <div class="zh-TW">變異測試</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-        <li>
-          <div class="en-US">Differential testing</div>
-          <div class="zh-CN">差异测试</div>
-          <div class="zh-TW">差異測試</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-        <li>
-          <div class="en-US">File format fuzzing, e.g. image &amp; media formats</div>
-          <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
-          <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-      </ul>
-      <footer class="notes">
-      </footer>
-    </section>
-  </div></div>
-  <!-- end slide block -->
   <div id="whysuccessful" class="slide"><div>
     <section>
       <header>
@@ -537,139 +407,7 @@
         </ul>
       </ul>
       <footer class="notes">
-        Fuzzing is a increasingly popular topic that security researchers talk about over the past 7 years.
-      </footer>
-    </section>
-  </div></div>
-  <!-- end slide block -->
-  <div id="recommend" class="slide"><div>
-    <section>
-      <header>
-        <h2>
-        <div class="en-US">Recommended workflow w/ fuzzing</div>
-        <div class="zh-CN">模糊测试技巧</div>
-        <div class="zh-TW">模糊測試技巧</div>
-        <div class="ja-JP">これは日本語です。</div>
-        </h2>
-      </header>
-      <ul class="inner">
-        <li class="active">
-          <div class="en-US"><strong>A</strong> fuzzer -&gt; bug</div>
-          <div class="zh-CN">模糊测试技巧</div>
-          <div class="zh-TW">模糊測試技巧</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-        <li>
-          <div class="en-US"><strong>A2</strong> fuzzer (with Valgrind/ASan) -&gt; bug</div>
-          <div class="zh-CN">模糊测试技巧</div>
-          <div class="zh-TW">模糊測試技巧</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-        <li>
-          <div class="en-US"><strong>B</strong> fuzzer -&gt; reducer -&gt; bug</div>
-          <div class="zh-CN">模糊测试技巧</div>
-          <div class="zh-TW">模糊測試技巧</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-        <li>
-          <div class="en-US"><strong>C</strong> fuzzer -&gt; reducer -&gt; bug -&gt; bisector</div>
-          <div class="zh-CN">模糊测试技巧</div>
-          <div class="zh-TW">模糊測試技巧</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-      </ul>
-      <footer class="notes">
-      </footer>
-    </section>
-  </div></div>
-  <!-- end slide block -->
-  <div id="recommend2" class="slide"><div>
-    <section>
-      <header>
-        <h2>
-        <div class="en-US">Recommended workflow w/ fuzzing (cont'd)</div>
-        <div class="zh-CN">模糊测试技巧</div>
-        <div class="zh-TW">模糊測試技巧</div>
-        <div class="ja-JP">これは日本語です。</div>
-        </h2>
-      </header>
-      <ul class="inner">
-        <li class="active">
-          <div class="en-US"><strong>D</strong> Multiple inputs to C, reporting to FuzzManager</div>
-          <div class="zh-CN">模糊测试技巧</div>
-          <div class="zh-TW">模糊測試技巧</div>
-          <div class="ja-JP">これは日本語です。</div>
-          <ul class="inner">
-            <li class="active">
-              USB / kernel / other targets
-            </li>
-            <li>
-              Patches for testing
-            </li>
-            <li>
-              Assorted compile-time/run-time flags
-            </li>
-            <li>
-              Different project branches
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <footer class="notes">
-        FuzzManager will keep track of known bugs. Cumulative output data will drive the development of the fuzzers.
-      </footer>
-    </section>
-  </div></div>
-  <!-- end slide block -->
-  <div id="buildingblocks" class="slide"><div>
-    <section>
-      <header>
-        <h2>
-        <div class="en-US">Suggested automation building blocks</div>
-        <div class="zh-CN">模糊测试技巧</div>
-        <div class="zh-TW">模糊測試技巧</div>
-        <div class="ja-JP">これは日本語です。</div>
-        </h2>
-      </header>
-      <ul>
-        <li>
-          <div class="en-US">Instrumentation</div>
-          <div class="zh-CN">生成测试</div>
-          <div class="zh-TW">生成測試</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-        <li>
-          <div class="en-US">Monitoring</div>
-          <div class="zh-CN">变异测试</div>
-          <div class="zh-TW">變異測試</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-        <li>
-          <div class="en-US">Log bucketing</div>
-          <div class="zh-CN">差异测试</div>
-          <div class="zh-TW">差異測試</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-        <li>
-          <div class="en-US">Testcase reduction</div>
-          <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
-          <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-        <li>
-          <div class="en-US">Bisection</div>
-          <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
-          <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-        <li>
-          <div class="en-US">Dashboard status</div>
-          <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
-          <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-      </ul>
-      <footer class="notes">
+        Over the past decade or so, fuzzing has become very popular among security researchers.
       </footer>
     </section>
   </div></div>
@@ -719,7 +457,7 @@
     <section>
       <header>
         <h2>
-        <div class="en-US">Suggested low-hanging fruit</div>
+        <div class="en-US">Possible focus areas for sec bugs</div>
         <div class="zh-CN">模糊测试技巧</div>
         <div class="zh-TW">模糊測試技巧</div>
         <div class="ja-JP">これは日本語です。</div>
@@ -727,31 +465,55 @@
       </header>
       <ul>
         <li>
-          <div class="en-US">Fuzz isolated modules</div>
-          <div class="zh-CN">生成测试</div>
-          <div class="zh-TW">生成測試</div>
-          <div class="ja-JP">これは日本語です。</div>
+          For most security bugs, modules that:
         </li>
-        <li>
-          <div class="en-US">Fuzz Gaia for mostly user-facing bugs</div>
-          <div class="zh-CN">变异测试</div>
-          <div class="zh-TW">變異測試</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-        <li>
-          <div class="en-US">Fuzz DOM phone-specific APIs</div>
-          <div class="zh-CN">差异测试</div>
-          <div class="zh-TW">差異測試</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-        <li>
-          <div class="en-US">Gonk or the phone kernel if possible</div>
-          <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
-          <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
+        <ul>
+          <li>
+            <div class="en-US">Are written in a unsafe language</div>
+            <div class="zh-CN">变异测试</div>
+            <div class="zh-TW">變異測試</div>
+            <div class="ja-JP">これは日本語です。</div>
+          </li>
+          <li>
+            <div class="en-US">Are less sandboxed</div>
+            <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
+            <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
+            <div class="ja-JP">これは日本語です。</div>
+          </li>
+          <li>
+            <div class="en-US">Parse attacker-controlled input</div>
+            <div class="zh-CN">生成测试</div>
+            <div class="zh-TW">生成測試</div>
+            <div class="ja-JP">これは日本語です。</div>
+          </li>
+          <li>
+            <div class="en-US">Implement security boundaries</div>
+            <div class="zh-CN">差异测试</div>
+            <div class="zh-TW">差異測試</div>
+            <div class="ja-JP">これは日本語です。</div>
+          </li>
+          <li>
+            <div class="en-US">Maintain critical invariants</div>
+            <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
+            <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
+            <div class="ja-JP">これは日本語です。</div>
+          </li>
+          <li>
+            <div class="en-US">Other security researchers are working on</div>
+            <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
+            <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
+            <div class="ja-JP">これは日本語です。</div>
+          </li>
+          <li>
+            <div class="en-US">What else scares you?</div>
+            <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
+            <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
+            <div class="ja-JP">これは日本語です。</div>
+          </li>
+        </ul>
       </ul>
       <footer class="notes">
+        Security bugs tend to also show up for the user.
       </footer>
     </section>
   </div></div>
@@ -760,7 +522,7 @@
     <section>
       <header>
         <h2>
-        <div class="en-US">Suggested low-hanging fruit (cont'd)</div>
+        <div class="en-US">Good starting points for fuzzing</div>
         <div class="zh-CN">模糊测试技巧</div>
         <div class="zh-TW">模糊測試技巧</div>
         <div class="ja-JP">これは日本語です。</div>
@@ -768,41 +530,46 @@
       </header>
       <ul>
         <li>
-          <div class="en-US">Modules that do interesting things with attacker-controlled input</div>
-          <div class="zh-CN">生成测试</div>
-          <div class="zh-TW">生成測試</div>
-          <div class="ja-JP">これは日本語です。</div>
+          Parts of Firefox OS which might be easiest to start fuzzing
         </li>
-        <li>
-          <div class="en-US">Modules written in a unsafe language</div>
-          <div class="zh-CN">变异测试</div>
-          <div class="zh-TW">變異測試</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-        <li>
-          <div class="en-US">Modules that implement security boundaries</div>
-          <div class="zh-CN">差异测试</div>
-          <div class="zh-TW">差異測試</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-        <li>
-          <div class="en-US">Modules that are less sandboxed</div>
-          <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
-          <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-        <li>
-          <div class="en-US">Modules responsible for maintaining critical invariants</div>
-          <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
-          <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-        <li>
-          <div class="en-US">Modules that other security researchers are working on, or that can be tested on Desktop</div>
-          <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
-          <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
+        <ul>
+          <li>
+            <div class="en-US">Fuzz isolated modules</div>
+            <div class="zh-CN">生成测试</div>
+            <div class="zh-TW">生成測試</div>
+            <div class="ja-JP">これは日本語です。</div>
+          </li>
+          <li>
+            <div class="en-US">Fuzz Gaia for mostly user-facing bugs</div>
+            <div class="zh-CN">变异测试</div>
+            <div class="zh-TW">變異測試</div>
+            <div class="ja-JP">これは日本語です。</div>
+          </li>
+          <li>
+            <div class="en-US">Fuzz DOM phone-specific APIs</div>
+            <div class="zh-CN">差异测试</div>
+            <div class="zh-TW">差異測試</div>
+            <div class="ja-JP">これは日本語です。</div>
+          </li>
+          <li>
+            <div class="en-US">Gonk or the phone kernel if possible</div>
+            <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
+            <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
+            <div class="ja-JP">これは日本語です。</div>
+          </li>
+          <li>
+            <div class="en-US">Can be tested on Desktop</div>
+            <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
+            <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
+            <div class="ja-JP">これは日本語です。</div>
+          </li>
+          <li>
+            <div class="en-US">What do you think should be added?</div>
+            <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
+            <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
+            <div class="ja-JP">これは日本語です。</div>
+          </li>
+        </ul>
       </ul>
       <footer class="notes">
       </footer>
@@ -931,7 +698,7 @@
           <div class="ja-JP">これは日本語です。</div>
         </li>
         <li>
-          <div class="en-US">Organic change in workflow happened <strong>over a few years</strong></div>
+          <div class="en-US">Organic change in workflow happened over a few years</div>
           <div class="zh-CN">差异测试</div>
           <div class="zh-TW">差異測試</div>
           <div class="ja-JP">これは日本語です。</div>
@@ -1144,11 +911,11 @@
     </section>
   </div></div>
   <!-- end slide block -->
-  <div id="assumptions" class="slide"><div>
+  <div id="factorsforsuccess" class="slide"><div>
     <section>
       <header>
         <h2>
-        <div class="en-US">Assumptions about workflow</div>
+        <div class="en-US">Factors for success</div>
         <div class="zh-CN">模糊测试技巧</div>
         <div class="zh-TW">模糊測試技巧</div>
         <div class="ja-JP">これは日本語です。</div>
@@ -1185,6 +952,66 @@
     </section>
   </div></div>
   <!-- end slide block -->
+  <div id="buildingblocks" class="slide"><div>
+    <section>
+      <header>
+        <h2>
+        <div class="en-US">Suggested automation building blocks</div>
+        <div class="zh-CN">模糊测试技巧</div>
+        <div class="zh-TW">模糊測試技巧</div>
+        <div class="ja-JP">これは日本語です。</div>
+        </h2>
+      </header>
+      <ul>
+        <li>
+          <div class="en-US">Input creation (the fuzzer)</div>
+          <div class="zh-CN">生成测试</div>
+          <div class="zh-TW">生成測試</div>
+          <div class="ja-JP">これは日本語です。</div>
+        </li>
+        <li>
+          <div class="en-US">Instrumentation</div>
+          <div class="zh-CN">生成测试</div>
+          <div class="zh-TW">生成測試</div>
+          <div class="ja-JP">これは日本語です。</div>
+        </li>
+        <li>
+          <div class="en-US">Monitoring</div>
+          <div class="zh-CN">变异测试</div>
+          <div class="zh-TW">變異測試</div>
+          <div class="ja-JP">これは日本語です。</div>
+        </li>
+        <li>
+          <div class="en-US">Log bucketing</div>
+          <div class="zh-CN">差异测试</div>
+          <div class="zh-TW">差異測試</div>
+          <div class="ja-JP">これは日本語です。</div>
+        </li>
+        <li>
+          <div class="en-US">Testcase reduction - helps file better bug reports</div>
+          <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
+          <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
+          <div class="ja-JP">これは日本語です。</div>
+        </li>
+        <li>
+          <div class="en-US">Bisection</div>
+          <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
+          <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
+          <div class="ja-JP">これは日本語です。</div>
+        </li>
+        <li>
+          <div class="en-US">Dashboard status</div>
+          <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
+          <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
+          <div class="ja-JP">これは日本語です。</div>
+        </li>
+      </ul>
+      <footer class="notes">
+        The workflow start should result in a workflow ending consisting of reduced testcases with bisection results.
+      </footer>
+    </section>
+  </div></div>
+  <!-- end slide block -->
   <div id="howfuzzingteamhelps" class="slide"><div>
     <section>
       <header>
@@ -1205,7 +1032,6 @@
               <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
               <div class="ja-JP">これは日本語です。</div>
             </li>
-            <li><a href="https://github.com/MozillaSecurity/funfuzz">funfuzz</a></li>
             <li><a href="https://github.com/MozillaSecurity/lithium">lithium</a></li>
           </ul>
         </li>
@@ -1218,6 +1044,7 @@
         </li>
       </ul>
       <footer class="notes">
+        <a href="https://github.com/MozillaSecurity/lithium">lithium</a>: Testcase reducer.
       </footer>
     </section>
   </div></div>
@@ -1254,15 +1081,6 @@
               <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
               <div class="ja-JP">これは日本語です。</div>
             </li>
-            <li><a href="https://github.com/MozillaSecurity/funfuzz">funfuzz</a></li>
-            <ul>
-              <li>
-                <a href="https://github.com/MozillaSecurity/funfuzz/tree/master/autobisect-js">autoBisect</a>
-              </li>
-              <li>
-                <a href="https://github.com/MozillaSecurity/funfuzz/tree/master/js">compileShell</a>
-              </li>
-            </ul>
           </ul>
         </li>
       </ul>
@@ -1416,7 +1234,9 @@
           <div class="zh-TW">軟件工程師</div>
           <div class="ja-JP">これは日本語です。</div>
         </li>
-        <li>&nbsp;</li>
+        <li>
+          Photo by <a href="http://www.flickr.com/photos/yortw/5798336827/">Yortw</a>
+        </li>
         <li>
           <div class="en-US">
             <a href="https://www.mozilla.org/en-US/styleguide/communications/presentations/">Mozilla Style</a> template</div>
@@ -1425,9 +1245,6 @@
             <div class="ja-JP">これは日本語です。</div>
           </li>
         </ul>
-        <small class="credits">
-        <a href="http://www.flickr.com/photos/yortw/5798336827/">Photo by Yortw</a>
-        </small>
         <footer class="notes">
         </footer>
       </section>
