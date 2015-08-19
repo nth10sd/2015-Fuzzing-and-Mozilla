@@ -244,9 +244,9 @@
             <div class="zh-TW">在摩茲裏，能夠使用模糊測試是最有效的 QA 人手。</div>
             <div class="ja-JP">これは日本語です。</div>
           </p>
-          <div class="en-US"><p class="byline"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/comment-page-1/#comment-29260">Nicholas Nethercote</a>, Memshrink, Low Level Tools Team Manager at Mozilla</p></div>
-          <div class="zh-CN"><p class="byline"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/comment-page-1/#comment-29260">Nicholas Nethercote</a>, 负责 Memshrink 和 Low Level Tools 的 Mozilla 经理</p></div>
-          <div class="zh-TW"><p class="byline"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/comment-page-1/#comment-29260">Nicholas Nethercote</a>, 負責 Memshrink 和 Low Level Tools 的 Mozilla 經理</p></div>
+          <div class="en-US"><p class="byline"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/comment-page-1/#comment-29260">Nicholas Nethercote</a>, MemShrink, Low Level Tools Team Manager at Mozilla</p></div>
+          <div class="zh-CN"><p class="byline"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/comment-page-1/#comment-29260">Nicholas Nethercote</a>, 负责 MemShrink 和 Low Level Tools 的 Mozilla 经理</p></div>
+          <div class="zh-TW"><p class="byline"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/comment-page-1/#comment-29260">Nicholas Nethercote</a>, 負責 MemShrink 和 Low Level Tools 的 Mozilla 經理</p></div>
           <div class="ja-JP"><p class="byline">これは日本語です</p>。</div>
         </p>
       </blockquote>
@@ -299,6 +299,36 @@
     </section>
   </div></div>
   <!-- end slide block -->
+  <div id="dynamicanalysistools" class="slide"><div>
+    <section>
+      <header>
+        <h2>
+        <div class="en-US">Dynamic analysis tools</div>
+        <div class="zh-CN">模糊测试工具目录</div>
+        <div class="zh-TW">模糊測試工具目錄</div>
+        <div class="ja-JP">これは日本語です。</div>
+        </h2>
+      </header>
+      <ul>
+        <li>
+          <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Testing/Firefox_and_Address_Sanitizer">Address Sanitizer (ASan)</a>
+        </li>
+        <li>
+          Thread Sanitizer
+        </li>
+        <li>
+          Leak Sanitizer
+        </li>
+        <li>
+          <a href="http://valgrind.org/">Valgrind</a>
+        </li>
+      </ul>
+      <footer class="notes">
+        Helps find memory safety problems, thread races, use-after-frees and buffer overflows.
+      </footer>
+    </section>
+  </div></div>
+  <!-- end slide block -->
   <div id="who" class="slide cover w"><div>
     <section>
       <header>
@@ -329,119 +359,68 @@
       </header>
       <ul>
         <li>
-          <a href="http://freecode.com/projects/mangleme/">mangleme</a> - Michal Zalewski
+          <a href="http://freecode.com/projects/mangleme/">mangleme</a> - Michał Zalewski
         </li>
         <li>
-          <a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/">jsfunfuzz &amp; DOMFuzz</a> - Jesse Ruderman
+          <a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/">jsfunfuzz</a> - Jesse Ruderman
         </li>
+        <li>
+          <a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/">DOMFuzz</a> - Jesse Ruderman
+        </li>
+      </ul>
+      <footer class="notes">
+        mangleme: Generates HTML code; jsfunfuzz: Generates JavaScript code and API calls; DOMFuzz: Generates DOM API calls
+      </footer>
+    </section>
+  </div></div>
+  <!-- end slide block -->
+  <div id="tools2" class="slide"><div>
+    <section>
+      <header>
+        <h2>
+        <div class="en-US">List of fuzzing tools (cont'd)</div>
+        <div class="zh-CN">模糊测试工具目录</div>
+        <div class="zh-TW">模糊測試工具目錄</div>
+        <div class="ja-JP">これは日本語です。</div>
+        </h2>
+      </header>
+      <ul>
         <li>
           <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=676763">LangFuzz</a> - Christian Holler
         </li>
         <li>
           <a href="http://www.peachfuzzer.com/">Peach</a>
         </li>
-        <li>
-          <a href="http://lcamtuf.coredump.cx/afl/">American Fuzzy Lop</a> - Michal Zalewski
-        </li>
-        <li>
-          <div class="en-US">Memory safety tools</div>
-          <div class="zh-CN">Memory safety 工具</div>
-          <div class="zh-TW">Memory safety 工具</div>
-          <div class="ja-JP">これは日本語です。</div>
-          <ul>
-            <li>
-              <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Testing/Firefox_and_Address_Sanitizer">AddressSanitizer (ASan)</a>, TSan, LSan, ...
-            </li>
-            <li>
-              <a href="http://valgrind.org/">Valgrind</a>
-            </li>
-          </ul>
-        </li>
       </ul>
       <footer class="notes">
+        LangFuzz: Grammar-based fuzzer; Peach: Mutates files
       </footer>
     </section>
   </div></div>
   <!-- end slide block -->
-  <div id="ossmozcode" class="slide"><div>
+  <div id="tools3" class="slide"><div>
     <section>
       <header>
         <h2>
-        <div class="en-US">Mozilla Security GitHub projects</div>
-        <div class="zh-CN">模糊测试技巧</div>
-        <div class="zh-TW">模糊測試技巧</div>
+        <div class="en-US">List of fuzzing tools (cont'd)</div>
+        <div class="zh-CN">模糊测试工具目录</div>
+        <div class="zh-TW">模糊測試工具目錄</div>
         <div class="ja-JP">これは日本語です。</div>
         </h2>
       </header>
       <ul>
         <li>
-          <div class="en-US"><a href="https://github.com/mozillasecurity/dharma">Dharma</a> (Christoph Diehl)</div>
-          <div class="zh-CN">模糊测试技巧</div>
-          <div class="zh-TW">模糊測試技巧</div>
-          <div class="ja-JP">これは日本語です。</div>
+          <a href="http://lcamtuf.coredump.cx/afl/">American Fuzzy Lop</a> - Michał Zalewski
         </li>
-        <ul>
-          <div class="en-US">Generational grammar fuzzer also <a href="http://blog.nibblesec.org/2015/08/using-dharma-to-rediscover-nodejs-out.html">used by outside parties</a></div>
-          <div class="zh-CN">模糊测试技巧</div>
-          <div class="zh-TW">模糊測試技巧</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </ul>
         <li>
-          <div class="en-US"><a href="https://github.com/MozillaSecurity/funfuzz">funfuzz</a> (Gary Kwong &amp; Jesse Ruderman)</div>
+          <div class="en-US"><a href="https://github.com/mozillasecurity/dharma">Dharma</a> - Christoph Diehl</div>
           <div class="zh-CN">模糊测试技巧</div>
           <div class="zh-TW">模糊測試技巧</div>
           <div class="ja-JP">これは日本語です。</div>
         </li>
-        <ul>
-          jsfunfuzz &amp; DOMFuzz harness
-          <ul>
-            <li>compileShell</li>
-            <ul>
-              Compiles desired SpiderMonkey shells
-            </ul>
-            <li>autoBisect</li>
-            <ul>
-              Bisects repositories to find regressors
-            </ul>
-          </ul>
-        </ul>
       </ul>
       <footer class="notes">
-      </footer>
-    </section>
-  </div></div>
-  <!-- end slide block -->
-  <div id="ossmozcode2" class="slide"><div>
-    <section>
-      <header>
-        <h2>
-        <div class="en-US">Mozilla Security GitHub projects (cont'd)</div>
-        <div class="zh-CN">模糊测试技巧</div>
-        <div class="zh-TW">模糊測試技巧</div>
-        <div class="ja-JP">これは日本語です。</div>
-        </h2>
-      </header>
-      <ul>
-        <li>
-          <a href="https://github.com/mozillasecurity/fuzzmanager">FuzzManager</a> (Christian Holler)
-        </li>
-        <ul>
-          <div class="en-US">Fuzzing management tools collection</div>
-          <div class="zh-CN">模糊测试技巧</div>
-          <div class="zh-TW">模糊測試技巧</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </ul>
-        <li>
-          <a href="https://github.com/MozillaSecurity/laniakea">Laniakea</a> (Christoph Diehl)
-        </li>
-        <ul>
-          <div class="en-US">Utility for managing EC2 instances at AWS</div>
-          <div class="zh-CN">模糊测试技巧</div>
-          <div class="zh-TW">模糊測試技巧</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </ul>
-      </ul>
-      <footer class="notes">
+        American Fuzzy Lop: fuzzer that uses genetic algorithms; Dharma: Generational grammar fuzzer also <a href="http://blog.nibblesec.org/2015/08/using-dharma-to-rediscover-nodejs-out.html">used by outside parties</a>
       </footer>
     </section>
   </div></div>
@@ -544,7 +523,7 @@
         <ul>
           <li>Black Hat USA 2005 - <a href="https://youtu.be/GABsy25AaXY">The Art of File Format Fuzzing</a></li>
           <li>Black Hat USA 2015 - <a href="https://www.blackhat.com/us-15/briefings.html">list of talks</a>, incl. on fuzzing</li>
-          <li>DEFCON 14: <a href="https://youtu.be/qipiswixdOs">The Evolving Art of Fuzzing</a></li>
+          <li>DEF CON 14: <a href="https://youtu.be/qipiswixdOs">The Evolving Art of Fuzzing</a></li>
         </ul>
         <li>
           <div class="en-US">Winners of Pwn2Own regularly use fuzzing</div>
@@ -881,7 +860,7 @@
           <div class="ja-JP">これは日本語です。</div>
         </li>
         <li>
-          <div class="en-US">Resistance to fixing non-goal bugs from developers</div>
+          <div class="en-US">Resistance to fixing non-goal bugs</div>
           <div class="zh-CN">差异测试</div>
           <div class="zh-TW">差異測試</div>
           <div class="ja-JP">これは日本語です。</div>
@@ -934,13 +913,13 @@
           <div class="ja-JP">これは日本語です。</div>
         </li>
         <li>
-          <div class="en-US">Sometimes dupes of real-world bugs</div>
+          <div class="en-US">Sometimes duplicates of real-world bugs</div>
           <div class="zh-CN">差异测试</div>
           <div class="zh-TW">差異測試</div>
           <div class="ja-JP">これは日本語です。</div>
         </li>
         <li>
-          <div class="en-US">Devs known to wait for fuzzbugs before debugging real-world bugs</div>
+          <div class="en-US">Developers sometimes wait for fuzzbugs before debugging real-world bugs</div>
           <div class="zh-CN">差异测试</div>
           <div class="zh-TW">差異測試</div>
           <div class="ja-JP">これは日本語です。</div>
@@ -952,7 +931,7 @@
           <div class="ja-JP">これは日本語です。</div>
         </li>
         <li>
-          <div class="en-US">Organic change in workflow happened over a few years</div>
+          <div class="en-US">Organic change in workflow happened <strong>over a few years</strong></div>
           <div class="zh-CN">差异测试</div>
           <div class="zh-TW">差異測試</div>
           <div class="ja-JP">これは日本語です。</div>
@@ -1020,7 +999,7 @@
           <div class="ja-JP">これは日本語です。</div>
         </li>
         <li>
-          <div class="en-US">Improves testsuites when run with memory safety tools</div>
+          <div class="en-US">Improves testsuites when run with dynamic analysis tools</div>
           <div class="zh-CN">差异测试</div>
           <div class="zh-TW">差異測試</div>
           <div class="ja-JP">これは日本語です。</div>
@@ -1060,7 +1039,7 @@
           </li>
         </ul>
         <li>
-          <div class="en-US">Build with support for memory safety tools</div>
+          <div class="en-US">Build with support for dynamic analysis tools</div>
           <div class="zh-CN">差异测试</div>
           <div class="zh-TW">差異測試</div>
           <div class="ja-JP">これは日本語です。</div>
@@ -1069,13 +1048,13 @@
           <li>
             ASan, TSan, Valgrind, etc.
           </li>
+          <li>
+            <div class="en-US">Run testsuites with such tools ideally before fuzzing</div>
+            <div class="zh-CN">差异测试</div>
+            <div class="zh-TW">差異測試</div>
+            <div class="ja-JP">これは日本語です。</div>
+          </li>
         </ul>
-        <li>
-          <div class="en-US">Run testsuites with such tools ideally before fuzzing</div>
-          <div class="zh-CN">差异测试</div>
-          <div class="zh-TW">差異測試</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
       </ul>
       <footer class="notes">
       </footer>
@@ -1119,6 +1098,7 @@
         </li>
       </ul>
       <footer class="notes">
+        Security researchers find less issues that make us scramble to chem-spill, and we get better bug reports from fuzzing.
       </footer>
     </section>
   </div></div>
@@ -1153,7 +1133,7 @@
           <div class="ja-JP">これは日本語です。</div>
         </li>
         <li>
-          <div class="en-US">Devices not powerful enough for memory safety tools</div>
+          <div class="en-US">Devices not powerful enough for dynamic analysis tools</div>
           <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
           <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
           <div class="ja-JP">これは日本語です。</div>
@@ -1176,7 +1156,7 @@
       </header>
       <ul>
         <li>
-          <div class="en-US">Train model</div>
+          <div class="en-US">Patches land on the trunk (master) first</div>
           <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
           <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
           <div class="ja-JP">これは日本語です。</div>
@@ -1195,12 +1175,6 @@
         </li>
         <li>
           <div class="en-US">Tests are rarely disabled</div>
-          <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
-          <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
-        <li>
-          <div class="en-US">Sufficient time for fuzzing to ease into workflow</div>
           <div class="zh-CN">档案格式测试（例如图形文件格式、媒体文件格式）</div>
           <div class="zh-TW">檔案格式測試（例如圖形文件格式、媒體文件格式）</div>
           <div class="ja-JP">これは日本語です。</div>
@@ -1309,7 +1283,7 @@
       </header>
       <ul>
         <li>
-          <a href="http://www.squarefree.com/fuzzing2010/fuzzing2010.xhtml">Fuzzing at Mozilla</a> - Jesse Ruderman, 2010
+          <a href="https://www.squarefree.com/fuzzing2012/presentation.xhtml">Fuzzing JavaScript And DOM</a> - Jesse Ruderman, 2012
         </li>
         <li>
           <a href="https://garykwong.wordpress.com/2012/01/28/fuzzing-at-mozilla-brown-bag-on-january-30-1pm-pt/">Fuzzing at Mozilla</a> (with video links) - Gary Kwong, 2012
@@ -1320,6 +1294,77 @@
           <div class="zh-TW"><a href="https://github.com/search?q=user%3Anth10sd+presentation">我的其他網上演講</a></div>
           <div class="ja-JP"><a href="https://github.com/search?q=user%3Anth10sd+presentation">これは日本語です。</a></div>
         </li>
+      </ul>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+  <!-- end slide block -->
+  <div id="ossmozcode" class="slide"><div>
+    <section>
+      <header>
+        <h2>
+        <div class="en-US">Mozilla Security GitHub projects</div>
+        <div class="zh-CN">模糊测试技巧</div>
+        <div class="zh-TW">模糊測試技巧</div>
+        <div class="ja-JP">これは日本語です。</div>
+        </h2>
+      </header>
+      <ul>
+        <li>
+          <div class="en-US"><a href="https://github.com/MozillaSecurity/funfuzz">funfuzz</a> (Gary Kwong &amp; Jesse Ruderman)</div>
+          <div class="zh-CN">模糊测试技巧</div>
+          <div class="zh-TW">模糊測試技巧</div>
+          <div class="ja-JP">これは日本語です。</div>
+        </li>
+        <ul>
+          jsfunfuzz &amp; DOMFuzz harness
+          <ul>
+            <li>compileShell</li>
+            <ul>
+              Compiles desired SpiderMonkey shells
+            </ul>
+            <li>autoBisect</li>
+            <ul>
+              Bisects repositories to find regressors
+            </ul>
+          </ul>
+        </ul>
+      </ul>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+  <!-- end slide block -->
+  <div id="ossmozcode2" class="slide"><div>
+    <section>
+      <header>
+        <h2>
+        <div class="en-US">Mozilla Security GitHub projects (cont'd)</div>
+        <div class="zh-CN">模糊测试技巧</div>
+        <div class="zh-TW">模糊測試技巧</div>
+        <div class="ja-JP">これは日本語です。</div>
+        </h2>
+      </header>
+      <ul>
+        <li>
+          <a href="https://github.com/mozillasecurity/fuzzmanager">FuzzManager</a> (Christian Holler)
+        </li>
+        <ul>
+          <div class="en-US">Fuzzing management tools collection</div>
+          <div class="zh-CN">模糊测试技巧</div>
+          <div class="zh-TW">模糊測試技巧</div>
+          <div class="ja-JP">これは日本語です。</div>
+        </ul>
+        <li>
+          <a href="https://github.com/MozillaSecurity/laniakea">Laniakea</a> (Christoph Diehl)
+        </li>
+        <ul>
+          <div class="en-US">Utility for managing EC2 instances at AWS</div>
+          <div class="zh-CN">模糊测试技巧</div>
+          <div class="zh-TW">模糊測試技巧</div>
+          <div class="ja-JP">これは日本語です。</div>
+        </ul>
       </ul>
       <footer class="notes">
       </footer>
@@ -1372,12 +1417,6 @@
           <div class="ja-JP">これは日本語です。</div>
         </li>
         <li>&nbsp;</li>
-        <li>
-          <div class="en-US"><a href="https://nth10sd.github.io/2015-Fuzzing-and-Mozilla/">Slide link</a></div>
-          <div class="zh-CN"><a href="https://nth10sd.github.io/2015-Fuzzing-and-Mozilla/">演讲资料</a></div>
-          <div class="zh-TW"><a href="https://nth10sd.github.io/2015-Fuzzing-and-Mozilla/">演講資料</a></div>
-          <div class="ja-JP">これは日本語です。</div>
-        </li>
         <li>
           <div class="en-US">
             <a href="https://www.mozilla.org/en-US/styleguide/communications/presentations/">Mozilla Style</a> template</div>
