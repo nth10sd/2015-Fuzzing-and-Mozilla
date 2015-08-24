@@ -2,9 +2,9 @@
 #### ... and where fuzzing sits in a Mozilla workflow.
 
 ##### View it online in various languages:
-1. [English](http://nth10sd.github.io/2015-Fuzzing-and-Mozilla/?full=&lang=en-US#cover) (draft)
-2. [Chinese (Simplified)](http://nth10sd.github.io/2015-Fuzzing-and-Mozilla/?full=&lang=zh-CN#cover) (draft)
-3. [Chinese (Traditional)](http://nth10sd.github.io/2015-Fuzzing-and-Mozilla/?full=&lang=zh-TW#cover) (draft)
+1. [English](http://nth10sd.github.io/2015-Fuzzing-and-Mozilla/?full=&lang=en-US#cover)
+2. [Chinese (Simplified)](http://nth10sd.github.io/2015-Fuzzing-and-Mozilla/?full=&lang=zh-CN#cover)
+3. [Chinese (Traditional)](http://nth10sd.github.io/2015-Fuzzing-and-Mozilla/?full=&lang=zh-TW#cover)
 4. ~~Japanese~~ (not completed yet)
 
 Pull requests for corrections and additional translations are most welcome!
