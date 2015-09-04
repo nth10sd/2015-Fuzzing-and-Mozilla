@@ -13,7 +13,7 @@
   <head>
     <meta charset="UTF-8">
     <title>
-    Fuzzing and Mozilla: 2015 | 模糊测试与Mozilla：2015 | 模糊測試與Mozilla：2015 | これは日本語です。
+    Fuzzing and Mozilla: 2015 | 模糊测试与Mozilla：2015 | 模糊測試與Mozilla：2015 | ファジングと Mozilla：2015
     </title>
     <!--
     If you upload your slides to the web, ensure that you have
@@ -28,7 +28,7 @@
       <div class="en-US"><h1>Fuzzing and Mozilla: 2015</h1></div>
       <div class="zh-CN"><h1>模糊测试与Mozilla：2015</h1></div>
       <div class="zh-TW"><h1>模糊測試與Mozilla：2015</h1></div>
-      <div class="ja-JP"><h1>これは日本語です。</h1></div>
+      <div class="ja-JP"><h1>ファジングと Mozilla：2015</h1></div>
       <div class="en-US"><p class="footer">
         Gary Kwong,
         <a href="https://twitter.com/nth10sd">@nth10sd</a> or
@@ -45,7 +45,7 @@
         <a href="mailto:gkw@mozilla.com">gkw@mozilla.com</a>
       </p></div>
       <div class="ja-JP"><p class="footer">
-        Gary Kwong,
+        ゲイリー・クォン,
         <a href="https://twitter.com/nth10sd">@nth10sd</a> or
         <a href="mailto:gkw@mozilla.com">gkw@mozilla.com</a>
       </p></div>
@@ -54,12 +54,12 @@
       <div class="en-US">This presentation describes where fuzzing sits in a Mozilla development workflow in 2015. It will mention how you can leverage it in your workflow to make development more efficient, and will not cover fuzzing itself in detail.</div>
       <div class="zh-CN">这个演讲是关于模糊测试在 Mozilla 开发流程中所扮演的角色，同时也会描述怎么利用模糊测试来使软件开发有更高的效率，但不会太详细的解释模糊测试这个话题。</div>
       <div class="zh-TW">這個演講是關於模糊測試在 Mozilla 開發流程中所扮演的角色，同時也會描述怎麼利用模糊測試來使軟件開發有更高的效率，但不會太詳細的解釋模糊測試這個話題。</div>
-      <div class="ja-JP">これは日本語です。</div>
+      <div class="ja-JP">これは2015年のMozilla開発フローにおけるファジングについてのプレゼンテーションです。ファジングを活用し開発をより効率的にする方法を説明します。なお、ファジングについての詳しい説明はしません。</div>
       <br/>
       <div class="en-US">English version by Gary Kwong.</div>
       <div class="zh-CN">中文（简体）版主要由邝子进 (Gary Kwong) 翻译，谢谢莫蓓英协助。</div>
       <div class="zh-TW">中文（繁體）版主要由鄺子進 (Gary Kwong) 翻譯，謝謝莫蓓英，蔡鎬匡和顧思捷協助。</div>
-      <div class="ja-JP">これは日本語です。</div>
+      <div class="ja-JP">日本語訳：矢倉眞隆</div>
       <button onclick="goFullScreen()">Go fullscreen</button>
       <br/>
       <br/>
@@ -68,7 +68,7 @@
       A case study on the success of the fuzzing team working together with the JavaScript team will be described. Furthermore, he will also cover the potential pitfalls of this approach and conditions under which fuzzing can be most effective.</p></div>
       <div class="zh-CN"><p>Mozilla Gecko 的平台含有很多组件。 Firefox OS 也需要 Gecko，因此，现在需要越来越多测试来确保品质以及用户的安全。 在这个演讲中，资深安全工程师<u>邝子进</u>会描述有关模糊测试的工具，及建议自动化的组件和在流程中能够使用模糊测试的快速方法。 演讲也会提到关于模糊测试组如何和 JavaScript 组一起成功合作的案例。 此外，演讲中也会包含这种途径的潜在的困难，同时也描述了模糊测试最有效的环境。</p></div>
       <div class="zh-TW"><p>Mozilla Gecko 的平台含有很多組件。 Firefox OS 也需要 Gecko，因此，現在需要越來越多測試來確保品質以及用戶的安全。 在這個演講中，資深安全工程師<u>鄺子進</u>會描述有關模糊測試的工具，及建議自動化的組件和在流程中能夠使用模糊測試的快速方法。 演講也會提到關於模糊測試組如何和 JavaScript 組一起成功合作的案例。 此外，演講中也會包含這種途徑潛在的困難，同時也描述了模糊測試最有效的環境。</p></div>
-      <div class="ja-JP"><p>これは日本語です。</p></div>
+      <div class="ja-JP"><p>概要：Mozilla の Gecko プラットフォームには数多くの可動部分があります。Firefox OS への注力に伴い、品質とユーザの安全のためテストが必要な領域が数多く広がりました。このプレゼンテーションは、シニアセキュリティエンジニアのゲイリー・クォンが Mozilla 開発ワークフローでファジングがどのように活用されているか説明するものです。ファジングのツール、推奨される自動化部品やファジングをすぐに展開するための方法についてお話しします。ケーススタディとして、ファジングチームと JavaScript チームとのうまくいった共同作業も紹介します。さらに、このアプローチで考えられる落とし穴とファジングが最も効果的に利用できる状況についてもお話します。</p></div>
     </aside>
     <!--
     Simply copy the whole block for each slide you want.
@@ -81,12 +81,12 @@
           <div class="en-US"><h2>Fuzzing and Mozilla: 2015</h2></div>
           <div class="zh-CN"><h2>模糊测试与Mozilla：2015</h2></div>
           <div class="zh-TW"><h2>模糊測試與Mozilla：2015</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>ファジングと Mozilla：2015</h2></div>
         </header>
         <div class="en-US"><small class="byline">Gary Kwong, Senior Security Engineer, Taipei 2015-08 / Tokyo 2015-09</small></div>
         <div class="zh-CN"><small class="byline">邝子进 ‧ 资深资安工程师 ‧ 台北 2015年8月 ／ 东京 2015年9月</small></div>
         <div class="zh-TW"><small class="byline">鄺子進 ‧ 資深資安工程師 ‧ 臺北 2015年8月 ／ 東京 2015年9月</small></div>
-        <div class="ja-JP"><small class="byline">これは日本語です。</small></div>
+        <div class="ja-JP"><small class="byline">ゲイリー・クォン｜シニアセキュリティエンジニア｜台北 2015年8月 / 東京 2015年9月</small></div>
         <footer class="notes">
         </footer>
       </section>
@@ -98,32 +98,32 @@
           <div class="en-US"><h2>Agenda</h2></div>
           <div class="zh-CN"><h2>大纲</h2></div>
           <div class="zh-TW"><h2>大綱</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>アジェンダ</h2></div>
         </header>
         <ul>
           <li>
             <div class="en-US">What is fuzzing?</div>
             <div class="zh-CN">什么是模糊测试？</div>
             <div class="zh-TW">什麼是模糊測試？</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">ファジングとは？</div>
           </li>
           <li>
             <div class="en-US">Why is fuzzing successful?</div>
             <div class="zh-CN">为什么模糊测试会成功？</div>
             <div class="zh-TW">為什麼模糊測試會成功？</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">ファジングが成功したのは？</div>
           </li>
           <li>
             <div class="en-US">What parts of Firefox OS to fuzz?</div>
             <div class="zh-CN">应该模糊测试 Firefox OS 的哪些部分？</div>
             <div class="zh-TW">應該模糊測試 Firefox OS 的哪些部分？</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">Firefox OS のどこでファジングをするか？</div>
           </li>
           <li>
             <div class="en-US">Tips for effective fuzzing</div>
             <div class="zh-CN">能够得到有效模糊测试的方法？</div>
             <div class="zh-TW">能夠得到有效模糊測試的方法？</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">効果的なファジング</div>
           </li>
         </ul>
         <footer class="notes">
@@ -137,7 +137,7 @@
           <div class="en-US"><h2>Fuzzing</h2></div>
           <div class="zh-CN"><h2>模糊测试</h2></div>
           <div class="zh-TW"><h2>模糊測試</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>ファジング</h2></div>
         </header>
         <footer class="notes">
         </footer>
@@ -150,17 +150,17 @@
           <div class="en-US"><h2>Quote</h2></div>
           <div class="zh-CN"><h2>引用句</h2></div>
           <div class="zh-TW"><h2>引用句</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>Quote</h2></div>
         </header>
         <blockquote>
           <div class="en-US"><p>the people writing and running fuzzers are by far the most effective QA people at Mozilla.</p></div>
           <div class="zh-CN"><p>在 Mozilla，使用模糊测试是最有效使用 QA（确保品质） 人力的方式。</p></div>
           <div class="zh-TW"><p>在 Mozilla，使用模糊測試是最有效使用 QA(確保品質) 人力的方式。</p></div>
-          <div class="ja-JP"><p>これは日本語です。</p></div>
+          <div class="ja-JP"><p>ファザーを書いて実行する人たちは、Mozilla でもっとも強力な QA （品質保証）の人だ。</p></div>
           <div class="en-US"><p class="byline"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/comment-page-1/#comment-29260">Nicholas Nethercote</a>, <a href="https://wiki.mozilla.org/Performance/MemShrink">MemShrink</a> &amp; Low Level Tools Team Manager at Mozilla</p></div>
           <div class="zh-CN"><p class="byline"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/comment-page-1/#comment-29260">Nicholas Nethercote</a>, 负责 <a href="https://wiki.mozilla.org/Performance/MemShrink">MemShrink</a> 和底层工具的 Mozilla 经理</p></div>
           <div class="zh-TW"><p class="byline"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/comment-page-1/#comment-29260">Nicholas Nethercote</a>, 負責 <a href="https://wiki.mozilla.org/Performance/MemShrink">MemShrink</a> 和底層工具的 Mozilla 經理</p></div>
-          <div class="ja-JP"><p class="byline">これは日本語です。</p></div>
+          <div class="ja-JP"><p class="byline"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/comment-page-1/#comment-29260">Nicholas Nethercote</a>, <a href="https://wiki.mozilla.org/Performance/MemShrink">MemShrink</a> &amp; Mozilla ローレベルツールチームマネージャ</p></p></div>
         </blockquote>
         <footer class="notes">
         </footer>
@@ -173,32 +173,32 @@
           <div class="en-US"><h2>What is fuzzing?</h2></div>
           <div class="zh-CN"><h2>什么是模糊测试？</h2></div>
           <div class="zh-TW"><h2>什麼是模糊測試？</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>ファジングとは？</h2></div>
         </header>
         <ul>
           <li>
             <div class="en-US">Give random input to software</div>
             <div class="zh-CN">包含随机性的输入输进软件</div>
             <div class="zh-TW">包含隨機性的輸入輸進軟體</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">ランダムな入力をソフトウェアに与える</div>
           </li>
           <li>
             <div class="en-US">May find easy-to-detect problems</div>
             <div class="zh-CN">有可能会找到容易侦测的问题</div>
             <div class="zh-TW">有可能會找到容易偵測的問題</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">検出しやすい問題を見つけられる</div>
             <ul>
               <li>
                 <div class="en-US">Crashes</div>
                 <div class="zh-CN">崩溃</div>
                 <div class="zh-TW">當機</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">クラッシュ</div>
               </li>
               <li>
                 <div class="en-US">Assertion failures</div>
                 <div class="zh-CN">Assertion failures</div>
                 <div class="zh-TW">Assertion failures</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">アサーション違反</div>
               </li>
             </ul>
           </li>
@@ -206,14 +206,14 @@
             <div class="en-US">These can manifest in the real-world</div>
             <div class="zh-CN">问题有时会在现实生活中出现</div>
             <div class="zh-TW">問題有時會在現實生活中出現</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">問題は実世界でも起こりうる</div>
           </li>
         </ul>
         <footer class="notes">
           <div class="en-US">Fuzzing can also discover races. Fuzzbugs can be rare corner cases, and can also appear in the real-world.</div>
           <div class="zh-CN">模糊测试找到的 bug 可以是罕见的 corner case，也有可能在现实生活出现。</div>
           <div class="zh-TW">模糊測試找到的 bug 可以是罕見的 corner case，也有可能在現實生活出現。</div>
-          <div class="ja-JP">これは日本語です。</div>
+          <div class="ja-JP">ファジングは競合も発見できる。ファズバグは稀なコーナーケースにもなりうるし、実世界でも現れる。</div>
         </footer>
       </section>
     </div></div>
@@ -224,7 +224,7 @@
           <div class="en-US"><h2>Dynamic analysis tools</h2></div>
           <div class="zh-CN"><h2>动态分析工具</h2></div>
           <div class="zh-TW"><h2>動態分析工具</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>動的解析ツール</h2></div>
         </header>
         <ol>
           <li><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Testing/Firefox_and_Address_Sanitizer">Address Sanitizer (ASan)</a></li>
@@ -236,7 +236,7 @@
           <div class="en-US">These tools help find memory safety problems, thread races, use-after-frees and buffer overflows.</div>
           <div class="zh-CN">这些工具能够帮忙找出记忆体安全问题，缓冲区溢出的 bug 以及其他的问题。</div>
           <div class="zh-TW">這些工具能夠幫忙找出記憶體安全問題，緩衝區溢位的 bug 以及其他的問題。</div>
-          <div class="ja-JP">これは日本語です。</div>
+          <div class="ja-JP">これらのツールはメモリセーフティの問題、スレッドの競合、解放済メモリ使用やバッファオーバーフローの検出に便利。</div>
         </footer>
       </section>
     </div></div>
@@ -247,7 +247,7 @@
           <div class="en-US"><h2>Mozilla Platform Fuzzing team</h2></div>
           <div class="zh-CN"><h2>Mozilla 平台模糊测试组</h2></div>
           <div class="zh-TW"><h2>Mozilla 平台模糊測試組</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>Mozilla プラットフォーム ファジングチーム</h2></div>
         </header>
         <img src="pictures/teammap.png"
         class="middle"
@@ -263,33 +263,33 @@
           <div class="en-US"><h2>List of fuzzing tools</h2></div>
           <div class="zh-CN"><h2>模糊测试工具目录</h2></div>
           <div class="zh-TW"><h2>模糊測試工具目錄</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>ファジングツール一覧</h2></div>
         </header>
         <ul>
           <li>
             <div class="en-US"><a href="http://freecode.com/projects/mangleme/">mangleme</a> - Michał Zalewski</div>
             <div class="zh-CN"><a href="http://freecode.com/projects/mangleme/">mangleme</a> - Michał Zalewski</div>
             <div class="zh-TW"><a href="http://freecode.com/projects/mangleme/">mangleme</a> - Michał Zalewski</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP"><a href="http://freecode.com/projects/mangleme/">mangleme</a> - Michał Zalewski</div>
           </li>
           <li>
             <div class="en-US"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/">jsfunfuzz</a> - Jesse Ruderman</div>
             <div class="zh-CN"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/">jsfunfuzz</a> - Jesse Ruderman</div>
             <div class="zh-TW"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/">jsfunfuzz</a> - Jesse Ruderman</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/">jsfunfuzz</a> - Jesse Ruderman</div>
           </li>
           <li>
             <div class="en-US"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/">DOMFuzz</a> - Jesse Ruderman</div>
             <div class="zh-CN"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/">DOMFuzz</a> - Jesse Ruderman</div>
             <div class="zh-TW"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/">DOMFuzz</a> - Jesse Ruderman</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/">DOMFuzz</a> - Jesse Ruderman</div>
           </li>
         </ul>
         <footer class="notes">
           <div class="en-US">mangleme: Generates HTML code; jsfunfuzz: Generates JavaScript code &amp; API calls; DOMFuzz: Generates DOM API calls</div>
           <div class="zh-CN">mangleme: 生成 HTML 代码; jsfunfuzz: 生成 JavaScript 代码和 API calls; DOMFuzz: 生成 DOM API calls</div>
           <div class="zh-TW">mangelme: 生成 HTML 代碼; jsfunfuzz: 生成 JavaScript 代碼和 API calls; DOMFuzz: 生成 DOM API calls</div>
-          <div class="ja-JP">これは日本語です。</div>
+          <div class="ja-JP">mangleme: HTML コードを生成、jsfunfuzz: JavaScript コードと API コールを生成、DOMFuzz: DOM API コールを生成</div>
         </footer>
       </section>
     </div></div>
@@ -300,39 +300,39 @@
           <div class="en-US"><h2>List of fuzzing tools (cont'd)</h2></div>
           <div class="zh-CN"><h2>模糊测试工具目录（续）</h2></div>
           <div class="zh-TW"><h2>模糊測試工具目錄（續）</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>ファンジングツール</h2></div>
         </header>
         <ul>
           <li>
             <div class="en-US"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=676763">LangFuzz</a> - Christian Holler</div>
             <div class="zh-CN"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=676763">LangFuzz</a> - Christian Holler</div>
             <div class="zh-TW"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=676763">LangFuzz</a> - Christian Holler</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=676763">LangFuzz</a> - Christian Holler</div>
           </li>
           <li>
             <div class="en-US"><a href="http://www.peachfuzzer.com/">Peach</a></div>
             <div class="zh-CN"><a href="http://www.peachfuzzer.com/">Peach</a></div>
             <div class="zh-TW"><a href="http://www.peachfuzzer.com/">Peach</a></div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP"><a href="http://www.peachfuzzer.com/">Peach</a></div>
           </li>
           <li>
             <div class="en-US"><a href="http://lcamtuf.coredump.cx/afl/">American Fuzzy Lop</a> - Michał Zalewski</div>
             <div class="zh-CN"><a href="http://lcamtuf.coredump.cx/afl/">American Fuzzy Lop</a> - Michał Zalewski</div>
             <div class="zh-TW"><a href="http://lcamtuf.coredump.cx/afl/">American Fuzzy Lop</a> - Michał Zalewski</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP"><a href="http://lcamtuf.coredump.cx/afl/">American Fuzzy Lop</a> - Michał Zalewski</div>
           </li>
           <li>
             <div class="en-US"><a href="https://github.com/mozillasecurity/dharma">Dharma</a> - Christoph Diehl</div>
             <div class="zh-CN"><a href="https://github.com/mozillasecurity/dharma">Dharma</a> - Christoph Diehl</div>
             <div class="zh-TW"><a href="https://github.com/mozillasecurity/dharma">Dharma</a> - Christoph Diehl</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP"><a href="https://github.com/mozillasecurity/dharma">Dharma</a> - Christoph Diehl</div>
           </li>
         </ul>
         <footer class="notes">
           <div class="en-US">LangFuzz: Grammar-based fuzzer; Peach: Mutates files; American Fuzzy Lop: Fuzzer that uses genetic algorithms; Dharma: Generational grammar fuzzer, also <a href="http://blog.nibblesec.org/2015/08/using-dharma-to-rediscover-nodejs-out.html">used by outside parties</a>.</div>
           <div class="zh-CN">LangFuzz: 基于语法的模糊器; Peach: 使文件发生变异; American Fuzzy Lop: 使用遗传算法的模糊器; Dharma: 生成代码的基于语法模糊器，也有外部公司<a href="http://blog.nibblesec.org/2015/08/using-dharma-to-rediscover-nodejs-out.html">使用</a>。</div>
           <div class="zh-TW">LangFuzz: 基於語法的模糊器; Peach: 使文件發生變異; American Fuzzy Lop: 使用遺傳算法的模糊器; Dharma: 生成代碼的基於語法模糊器，也有外部公司<a href="http://blog.nibblesec.org/2015/08/using-dharma-to-rediscover-nodejs-out.html">使用</a>。</div>
-          <div class="ja-JP">これは日本語です。</div>
+          <div class="ja-JP">LangFuzz: 文法ベースファザー、Peach: ファイル変更、American Fuzzy Lop: 遺伝的アルゴリズム使用のファザー、Dharma: 生成文法ファザー、<a href="http://blog.nibblesec.org/2015/08/using-dharma-to-rediscover-nodejs-out.html">他の開発者も利用</a></div>
         </footer>
       </section>
     </div></div>
@@ -343,21 +343,21 @@
           <div class="en-US"><h2>Why is fuzzing successful?</h2></div>
           <div class="zh-CN"><h2>为什么模糊测试会成功？</h2></div>
           <div class="zh-TW"><h2>為什麼模糊測試會成功？</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>ファジングが成功したのは？</h2></div>
         </header>
         <ul>
           <li>
             <div class="en-US">Bug counts</div>
             <div class="zh-CN">Bug 数量</div>
             <div class="zh-TW">Bug 數量</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">バグの数</div>
             <ul>
               <li>6,450 - jsfunfuzz &amp; DOMFuzz</li>
               <li>
                 <div class="en-US">&gt;12% sec-critical</div>
                 <div class="zh-CN">&gt;12% sec-critical</div>
                 <div class="zh-TW">&gt;12% sec-critical</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">&gt;12% sec-critical</div>
               </li>
             </ul>
           </li>
@@ -365,7 +365,7 @@
             <div class="en-US">Bug bounty programs</div>
             <div class="zh-CN">Bug 的赏金计划</div>
             <div class="zh-TW">Bug 的賞金計畫</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">バグ報奨金プログラム</div>
             <ul>
               <li>
                 <a href="https://www.mozilla.org/en-US/security/client-bug-bounty/">Mozilla</a>
@@ -374,7 +374,7 @@
                     <div class="en-US">A use-after-free can possibly be worth US$3,000 - US$5,000</div>
                     <div class="zh-CN">发现一个 use-after-free 有可能获得 US$3,000 - US$5,000</div>
                     <div class="zh-TW">發現一個 use-after-free 有可能獲得 US$3,000 - US$5,000</div>
-                    <div class="ja-JP">これは日本語です。</div>
+                    <div class="ja-JP">解放済みメモリ使用のバグは3000ドル〜5000ドルの価値</div>
                   </li>
                 </ul>
               </li>
@@ -393,7 +393,7 @@
           <div class="en-US"><h2>Why is fuzzing successful? (cont'd)</h2></div>
           <div class="zh-CN"><h2>为什么模糊测试会成功？（续）</h2></div>
           <div class="zh-TW"><h2>為什麼模糊測試會成功？（續）</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>ファジングが成功したのは？</h2></div>
         </header>
         <ul>
           <li>Black Hat USA 2005 - <a href="https://youtu.be/GABsy25AaXY">The Art of File Format Fuzzing</a></li>
@@ -404,7 +404,7 @@
                 <div class="en-US"><a href="https://www.blackhat.com/us-15/briefings.html">list of talks</a>, incl. on fuzzing</div>
                 <div class="zh-CN"><a href="https://www.blackhat.com/us-15/briefings.html">演讲目录</a>， 包括关于模糊测试的演讲</div>
                 <div class="zh-TW"><a href="https://www.blackhat.com/us-15/briefings.html">演講目錄</a>， 包括關於模糊測試的演講</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP"><a href="https://www.blackhat.com/us-15/briefings.html">講演一覧</a>、ファジングのトークがある</div>
               </li>
             </ul>
           </li>
@@ -413,14 +413,14 @@
             <div class="en-US"><a href="https://en.wikipedia.org/wiki/Pwn2Own">Pwn2Own</a> winners</div>
             <div class="zh-CN"><a href="https://en.wikipedia.org/wiki/Pwn2Own">Pwn2Own</a> 赢者</div>
             <div class="zh-TW"><a href="https://en.wikipedia.org/wiki/Pwn2Own">Pwn2Own</a> 贏者</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP"><a href="https://en.wikipedia.org/wiki/Pwn2Own">Pwn2Own</a> 勝者</div>
             <ul>
               <li><a href="http://www.computerworld.com/article/2516829/security0/pwn2own-winner-tells-apple--microsoft-to-find-their-own-bugs.html">Charlie Miller</a>, 2010</li>
               <li>
                 <div class="en-US">Pwn2Own <a href="http://arstechnica.com/security/2014/03/pwn2own-the-perfect-antidote-to-fanboys-who-say-their-platform-is-safe/">Ars Technica article</a>, 2014</div>
                 <div class="zh-CN">Pwn2Own <a href="http://arstechnica.com/security/2014/03/pwn2own-the-perfect-antidote-to-fanboys-who-say-their-platform-is-safe/">Ars Technica</a> 文章, 2014</div>
                 <div class="zh-TW">Pwn2Own <a href="http://arstechnica.com/security/2014/03/pwn2own-the-perfect-antidote-to-fanboys-who-say-their-platform-is-safe/">Ars Technica</a> 文章, 2014</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">Pwn2Own についての <a href="http://arstechnica.com/security/2014/03/pwn2own-the-perfect-antidote-to-fanboys-who-say-their-platform-is-safe/">Ars Technica の記事</a>（2014年）</div>
               </li>
             </ul>
           </li>
@@ -429,7 +429,7 @@
           <div class="en-US">Increasing no. of fuzzing talks at sec conferences show fuzzing has become v. popular among researchers over the past decade.</div>
           <div class="zh-CN">现在的电脑安全会议有越来越多关于模糊测试的演讲。这证实了模糊测试越来越受重视。</div>
           <div class="zh-TW">現在的電腦安全會議有越來越多關於模糊測試的演講。這證實了模糊測試越來越受重視。</div>
-          <div class="ja-JP">これは日本語です。</div>
+          <div class="ja-JP">セキュリティ関連カンファレンスにおけるファジング関連の講演数の増加は、ファジングが研究者にとても注目されていることを示している。</div>
         </footer>
       </section>
     </div></div>
@@ -440,20 +440,20 @@
           <div class="en-US"><h2>Potential hosts / targets</h2></div>
           <div class="zh-CN"><h2>潜在主机／目标</h2></div>
           <div class="zh-TW"><h2>潛在主機／目標</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>潜在ホスト・ターゲット</h2></div>
         </header>
         <ul>
           <li>
             <div class="en-US">Phones</div>
             <div class="zh-CN">手机</div>
             <div class="zh-TW">手機</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">ケータイ・スマホ</div>
           </li>
           <li>
             <div class="en-US">Emulators</div>
             <div class="zh-CN">模拟器</div>
             <div class="zh-TW">模擬器</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">エミュレータ</div>
           </li>
           <li>
             <a href="https://wiki.mozilla.org/Mulet">Mulet</a> / B2G Desktop
@@ -462,7 +462,7 @@
             <div class="en-US">What else do you think should be added?</div>
             <div class="zh-CN">更多。。。</div>
             <div class="zh-TW">更多。。。</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">ほかにもあるかな…？</div>
           </li>
         </ul>
         <footer class="notes">
@@ -476,56 +476,56 @@
           <div class="en-US"><h2>Possible focus areas for sec bugs</h2></div>
           <div class="zh-CN"><h2>Security bugs 可能出现的重要位置</h2></div>
           <div class="zh-TW"><h2>Security bugs 可能出現的重要位置</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>セキュリティバグのフォーカス領域</h2></div>
         </header>
         <ul>
           <li>
             <div class="en-US">Modules that:</div>
             <div class="zh-CN">模组：</div>
             <div class="zh-TW">模組：</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">こういうモジュール：</div>
             <ul>
               <li>
                 <div class="en-US">Are written in a unsafe language</div>
                 <div class="zh-CN">用不安全的电脑语言来撰写</div>
                 <div class="zh-TW">用不安全的電腦語言來撰寫</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">安全ではない言語で書かれたもの</div>
               </li>
               <li>
                 <div class="en-US">Are less sandboxed</div>
                 <div class="zh-CN">没在沙盒 (sandbox) 里分割好</div>
                 <div class="zh-TW">沒在沙盒 (sandbox) 裡分割好</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">サンドボックスが甘いもの</div>
               </li>
               <li>
                 <div class="en-US">Parse attacker-controlled input</div>
                 <div class="zh-CN">分析入侵者能控制的输入</div>
                 <div class="zh-TW">分析入侵者能控制的輸入</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">アタッカーが制御する入力をパースするもの</div>
               </li>
               <li>
                 <div class="en-US">Implement security boundaries</div>
                 <div class="zh-CN">实行保护边界</div>
                 <div class="zh-TW">實行保護邊界</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">セキュリティバウンダリを実装するもの</div>
               </li>
               <li>
                 <div class="en-US">Maintain critical invariants</div>
                 <div class="zh-CN">维持不变的重要条件</div>
                 <div class="zh-TW">維持不變的重要條件</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">不変条件を管理するもの</div>
               </li>
               <li>
                 <div class="en-US">Other security researchers are working on</div>
                 <div class="zh-CN">其他电脑专家正在研究的地方</div>
                 <div class="zh-TW">其他電腦專家正在研究的地方</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">他のセキュリティ研究者が関わっているもの</div>
               </li>
               <li>
                 <div class="en-US">What else scares you?</div>
                 <div class="zh-CN">更多。。。</div>
                 <div class="zh-TW">更多。。。</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">ほかになにかある…？</div>
               </li>
             </ul>
           </li>
@@ -534,7 +534,7 @@
           <div class="en-US">Security bugs tend to also show up for the user.</div>
           <div class="zh-CN">Security bugs 有时会出现在用户面前。</div>
           <div class="zh-TW">Security bugs 有時會出現在用戶面前。</div>
-          <div class="ja-JP">これは日本語です。</div>
+          <div class="ja-JP">セキュリティバグはユーザーにも現れやすい。</div>
         </footer>
       </section>
     </div></div>
@@ -545,44 +545,44 @@
           <div class="en-US"><h2>Good starting points for fuzzing</h2></div>
           <div class="zh-CN"><h2>可以从哪里开始进行模糊测试</h2></div>
           <div class="zh-TW"><h2>可以從哪裡開始進行模糊測試</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>ファジングをはじめやすいところ</h2></div>
         </header>
         <ul>
           <li>
             <div class="en-US">Isolated modules</div>
             <div class="zh-CN">隔离的模组</div>
             <div class="zh-TW">隔離的模組</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">隔離モジュール</div>
           </li>
           <li>
             <div class="en-US">Gaia for user-facing bugs</div>
             <div class="zh-CN">Gaia（面对用户的问题）</div>
             <div class="zh-TW">Gaia（面對用戶的問題）</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">Gaia（ユーザー）</div>
           </li>
           <li>
             <div class="en-US">DOM phone-specific APIs</div>
             <div class="zh-CN">手机专用的 DOM API</div>
             <div class="zh-TW">手機專用的 DOM API</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">電話専用 DOM API</div>
           </li>
           <li>
             <div class="en-US">Gonk / phone kernel</div>
             <div class="zh-CN">Gonk / 手机内核</div>
             <div class="zh-TW">Gonk / 手機 kernel</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">Gonk / 電話カーネル</div>
           </li>
           <li>
             <div class="en-US">Can be tested on Firefox Desktop</div>
             <div class="zh-CN">可以在 Firefox Desktop 测试</div>
             <div class="zh-TW">可以在 Firefox Desktop 測試</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">Firefox デスクトップでテスト可能なもの</div>
           </li>
           <li>
             <div class="en-US">What else?</div>
             <div class="zh-CN">更多。。。</div>
             <div class="zh-TW">更多。。。</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">ほかには…？</div>
           </li>
         </ul>
         <footer class="notes">
@@ -596,7 +596,7 @@
           <div class="en-US"><h2>marifuzz demo (PoC)</h2></div>
           <div class="zh-CN"><h2>marifuzz 概念示范</h2></div>
           <div class="zh-TW"><h2>marifuzz 概念示範</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>marifuzz のデモ</h2></div>
         </header>
         <footer class="notes">
         </footer>
@@ -609,38 +609,38 @@
           <div class="en-US"><h2>Typical issues a large project faces</h2></div>
           <div class="zh-CN"><h2>大型项目通常会遇到的问题</h2></div>
           <div class="zh-TW"><h2>大型專案通常會遇到的問題</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>大きなプロジェクトが直面する典型的な問題</h2></div>
         </header>
         <ul>
           <li>
             <div class="en-US">Bugs</div>
             <div class="zh-CN">Bugs</div>
             <div class="zh-TW">Bugs</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">バグ</div>
           </li>
           <li>
             <div class="en-US">Tests</div>
             <div class="zh-CN">测试案例</div>
             <div class="zh-TW">測試案例</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">テスト</div>
           </li>
           <li>
             <div class="en-US">Manpower</div>
             <div class="zh-CN">人力</div>
             <div class="zh-TW">人力</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">マンパワー</div>
           </li>
           <li>
             <div class="en-US">Resistance</div>
             <div class="zh-CN">抵抗性</div>
             <div class="zh-TW">抵抗性</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">抵抗</div>
           </li>
           <li>
             <div class="en-US">Hard to find serious bugs</div>
             <div class="zh-CN">很难找到严重的 bug</div>
             <div class="zh-TW">很難找到嚴重的 bug</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">重大なバグを見つけづらい</div>
           </li>
         </ul>
         <footer class="notes">
@@ -654,32 +654,32 @@
           <div class="en-US"><h2>Case study: JavaScript team</h2></div>
           <div class="zh-CN"><h2>案例分析：JavaScript 组</h2></div>
           <div class="zh-TW"><h2>案例分析：JavaScript 組</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>ケーススタディ：JavaScript チーム</h2></div>
         </header>
         <ul>
           <li>
             <div class="en-US">Too many fuzzbugs &rarr; resistance</div>
             <div class="zh-CN">太多模糊测试找到的 bug &rarr; 抵抗性</div>
             <div class="zh-TW">太多模糊測試找到的 bug &rarr; 抵抗性</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">大量のファズバグ &rarr; 抵抗</div>
           </li>
           <li>
             <div class="en-US">Value</div>
             <div class="zh-CN">价值</div>
             <div class="zh-TW">價值</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">価値</div>
           </li>
           <li>
             <div class="en-US">Fuzzing team &rarr; QA</div>
             <div class="zh-CN">模糊测试组 &rarr; QA</div>
             <div class="zh-TW">模糊測試組 &rarr; QA</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">ファジングチーム &rarr; QA</div>
           </li>
           <li>
             <div class="en-US">Took time to realize</div>
             <div class="zh-CN">需要时间实现</div>
             <div class="zh-TW">需要時間實現</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">理解に時間がかかった</div>
           </li>
         </ul>
         <footer class="notes">
@@ -693,38 +693,38 @@
           <div class="en-US"><h2>Case study: JavaScript team (cont'd)</h2></div>
           <div class="zh-CN"><h2>案例分析：JavaScript 组（续）</h2></div>
           <div class="zh-TW"><h2>案例分析：JavaScript 組（續）</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>ケーススタディ：JavaScript チーム</h2></div>
         </header>
         <ul>
           <li>
             <div class="en-US">Fuzzbug reports nowadays are:</div>
             <div class="zh-CN">现在状况：</div>
             <div class="zh-TW">現在狀況：</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">現在のファズバグレポート：</div>
             <ul>
               <li>
                 <div class="en-US">Concise</div>
                 <div class="zh-CN">简洁</div>
                 <div class="zh-TW">簡潔</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">簡潔</div>
               </li>
               <li>
                 <div class="en-US">Popular</div>
                 <div class="zh-CN">受欢迎</div>
                 <div class="zh-TW">受歡迎</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">歓迎されてる</div>
               </li>
               <li>
                 <div class="en-US">Sometimes duplicates of real-world bugs</div>
                 <div class="zh-CN">有时是现实生活缺陷的翻版</div>
                 <div class="zh-TW">有時是現實世界缺陷的翻版</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">時には実世界のバグと重複</div>
               </li>
               <li>
                 <div class="en-US">Devs sometimes wait for fuzzbugs</div>
                 <div class="zh-CN">有时工程师会等待模糊测试的报告</div>
                 <div class="zh-TW">有時工程師會等待模糊測試的報告</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">開発者がファズバグを待つことも</div>
               </li>
             </ul>
           </li>
@@ -733,7 +733,7 @@
           <div class="en-US">Fuzzbug reports usually have stacktraces, reduced testcases and a bisection result.</div>
           <div class="zh-CN">模糊测试報告有时会有 stack traces, 缩小的测试案例和二分法的结果。</div>
           <div class="zh-TW">模糊測試報告有時會有 stack traces, reduced testcases 和二分法的結果。</div>
-          <div class="ja-JP">これは日本語です。</div>
+          <div class="ja-JP">ファズバグのレポートはスタックトレース、reduction 済みのテストケース、bisection な結果を基本的に持つ。</div>
         </footer>
       </section>
     </div></div>
@@ -744,17 +744,17 @@
           <div class="en-US"><h2>Quote</h2></div>
           <div class="zh-CN"><h2>引用句</h2></div>
           <div class="zh-TW"><h2>引用句</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>Quote</h2></div>
         </header>
         <blockquote>
           <div class="en-US"><p>From this day on forward, I shall never write a JIT (compiler) again without Jesse.</p></div>
           <div class="zh-CN"><p>此后，若没有 Jesse 帮忙，我不会再多写一个 JIT （编译器）。</p></div>
           <div class="zh-TW"><p>此後，若沒有 Jesse 幫忙，我不會再多寫一個 JIT （編譯器）。</p></div>
-          <div class="ja-JP"><p>これは日本語です。</p></div>
+          <div class="ja-JP"><p>もう Jesse なしに JIT (コンパイラ) は書かないよ。</p></p></div>
           <div class="en-US"><p class="byline"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=457778#c2">Andreas Gal</a>, ex-Mozilla CTO</p></div>
           <div class="zh-CN"><p class="byline"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=457778#c2">Andreas Gal</a>, ex-Mozilla CTO</p></div>
           <div class="zh-TW"><p class="byline"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=457778#c2">Andreas Gal</a>, ex-Mozilla CTO</p></div>
-          <div class="ja-JP"><p class="byline">これは日本語です。</p></div>
+          <div class="ja-JP"><p class="byline"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=457778#c2">Andreas Gal</a>, 元 Mozilla CTO</p></div>
         </blockquote>
         <footer class="notes">
         </footer>
@@ -767,26 +767,26 @@
           <div class="en-US"><h2>Working as a team</h2></div>
           <div class="zh-CN"><h2>一起合作</h2></div>
           <div class="zh-TW"><h2>一起合作</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>チームとして作業したこと</h2></div>
         </header>
         <ul>
           <li>
             <div class="en-US">Fix fuzzbugs</div>
             <div class="zh-CN">修补模糊测试找到的 bug</div>
             <div class="zh-TW">修補模糊測試找到的 bug</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">ファズバグの修正</div>
           </li>
           <li>
             <div class="en-US">Tests land on mozilla-central</div>
             <div class="zh-CN">将测试案例输入 mozilla-central</div>
             <div class="zh-TW">將測試案例輸入 mozilla-central</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">mozilla-central への land をテスト</div>
           </li>
           <li>
             <div class="en-US">More starting points for fuzzing</div>
             <div class="zh-CN">增加变异型测试数量</div>
             <div class="zh-TW">增加變異型測試數量</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">ファジングの導入を増やす</div>
           </li>
         </ul>
         <footer class="notes">
@@ -800,26 +800,26 @@
           <div class="en-US"><h2>Devs code to help find more bugs</h2></div>
           <div class="zh-CN"><h2>工程师帮忙写找 bug 的代码</h2></div>
           <div class="zh-TW"><h2>工程師幫忙寫找 bug 的代碼</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>開発者のコードがバグ検出を助ける</h2></div>
         </header>
         <ul>
           <li>
             <div class="en-US">Add assertions &amp; testing functions</div>
             <div class="zh-CN">增加 assertions 和测试程序的数量</div>
             <div class="zh-TW">增加 assertions 和測試程式的數量</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">アサーションとテスト関数を追加</div>
           </li>
           <li>
             <div class="en-US">Test components in isolation</div>
             <div class="zh-CN">独立测试组件</div>
             <div class="zh-TW">獨立測試組件</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">コンポーネントのアイソレーションテスト</div>
           </li>
           <li>
             <div class="en-US">Dynamic analysis tool support</div>
             <div class="zh-CN">支援动态分析工具</div>
             <div class="zh-TW">支援動態分析工具</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">動的解析ツールのサポート</div>
             <ul>
               <li>
                 ASan
@@ -837,7 +837,7 @@
           <div class="en-US">Test components in isolation: Similar to SpiderMonkey shell but for mobile radio and USB; Dynamic analysis tool support: Run testsuites with dynamic analysis tools ideally before fuzzing</div>
           <div class="zh-CN">独立测试组件：例如 SpiderMonkey shell，移动无线电 shell 与 USB shell。支援动态分析工具：测试套件中需要支援的动态分析工具</div>
           <div class="zh-TW">獨立測試組件：例如 SpiderMonkey shell，移動無線電 shell 與 USB shell。支援動態分析工具：測試套件中需要支援的動態分析工具</div>
-          <div class="ja-JP">これは日本語です。</div>
+          <div class="ja-JP">コンポーネントのアイソレーションテスト：SpiderMonkey shell に似たものだが、無線通信と USB のためのもの、動的解析ツールのサポート：テストスイートをファジングの前に動的解析ツールつきで実行するのが理想</div>
         </footer>
       </section>
     </div></div>
@@ -848,45 +848,45 @@
           <div class="en-US"><h2>Results</h2></div>
           <div class="zh-CN"><h2>成效</h2></div>
           <div class="zh-TW"><h2>成效</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>結果</h2></div>
         </header>
         <ul>
           <li>
             <div class="en-US">Security bugs &rarr; higher-priority</div>
             <div class="zh-CN">安全漏洞 &rarr; higher-priority-</div>
             <div class="zh-TW">安全漏洞 &rarr; higher-priority</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">セキュリティバグ &rarr; higher-priority</div>
           </li>
           <li>
             <div class="en-US">Fuzzblockers &rarr; higher-priority</div>
             <div class="zh-CN">模糊测试严重 bug 问题 (Fuzzblockers) &rarr; higher-priority</div>
             <div class="zh-TW">模糊測試嚴重 bug 問題 (Fuzzblockers) &rarr; higher-priority</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">Fuzzblockers &rarr; higher-priority</div>
           </li>
           <li>
             <div class="en-US">Fuzzbugs &rarr; generally lower-priority</div>
             <div class="zh-CN">模糊测试找到的 bug (Fuzzbugs) &rarr; lower-priority</div>
             <div class="zh-TW">模糊測試找到的 bug (Fuzzbugs) &rarr; lower-priority</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">ファズバグ &rarr; 基本的に lower-priority</div>
           </li>
           <li>
             <div class="en-US">The more we discover, the less others find</div>
             <div class="zh-CN">内部找到越多，外部找到越少</div>
             <div class="zh-TW">內部找到越多，外部找到越少</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">内部で発見する数が多くなるにつれ、外部での発見が減少</div>
           </li>
           <li>
             <div class="en-US">More bugs discovered, as we scale</div>
             <div class="zh-CN">延展得多，就能找到越多 bugs</div>
             <div class="zh-TW">發展越廣，就能找到越多 bugs</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">スケールするにつれて多くのバグが見つかった</div>
           </li>
         </ul>
         <footer class="notes">
           <div class="en-US">Security bugs, fuzzblockers &rarr; higher-priority; Fuzzbugs &rarr; generally lower-priority； Security researchers find less issues that make us scramble to chem-spill, and we get better bug reports from fuzzing.</div>
           <div class="zh-CN">安全漏洞与模糊测试中严重的问题：较优先级。 模糊测试报告一般是较低优先级。 电脑专家会找到比较少需要我们马上修改的 bug，然后我们也可以从模糊测试中得到更好的 bug 报告。</div>
           <div class="zh-TW">安全漏洞與模糊測試中嚴重的問題：更高優先級。 模糊測試報告一般是較低優先級。 電腦專家會找到比較少需要我們馬上修改的 bug，然後我們也可以從模糊測試中得到更好的 bug 報告。</div>
-          <div class="ja-JP">これは日本語です。</div>
+          <div class="ja-JP">セキュリティバグと fuzzblockers &rarr; higher-priority; ファズバグ &rarr; 基本的に lower-priority、セキュリティ研究者から私たちをかき回すようなバグが出てくることが少なくなり、ファジングからより良いバグレポートを得られるようになった。</div>
         </footer>
       </section>
     </div></div>
@@ -897,39 +897,39 @@
           <div class="en-US"><h2>Potential pitfalls</h2></div>
           <div class="zh-CN"><h2>潜在的困难</h2></div>
           <div class="zh-TW"><h2>潛在的困難</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>はまりうる落とし穴</h2></div>
         </header>
         <ul>
           <li>
             <div class="en-US">Gaia stack traces</div>
             <div class="zh-CN">Gaia stack traces</div>
             <div class="zh-TW">Gaia stack traces</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">Gaia のスタックトレース</div>
           </li>
           <li>
             <div class="en-US">Kernel failures</div>
             <div class="zh-CN">内核故障</div>
             <div class="zh-TW">Kernel 故障</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">カーネルの問題</div>
           </li>
           <li>
             <div class="en-US">Automation frameworks</div>
             <div class="zh-CN">自动化工具</div>
             <div class="zh-TW">自動化工具</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">自動化フレームワーク</div>
           </li>
           <li>
             <div class="en-US">Devices not powerful enough</div>
             <div class="zh-CN">手机不够强大</div>
             <div class="zh-TW">手機不夠強大</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">スペックが充分ではないデバイス</div>
           </li>
         </ul>
         <footer class="notes">
           <div class="en-US"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=877896">Lack of stacktraces</a> when Gaia apps crash; Lack ways to collect kernel failures; Automation frameworks need sufficient developer attention; Devices not powerful enough for dynamic analysis tools</div>
           <div class="zh-CN">Gaia 崩溃时，没有办法得到 stack traces。 没办法汇整内核故障事件。 自动化工具需要工程师足够的重视。 手机不够强来跑动态分析工具。</div>
           <div class="zh-TW">Gaia 當機時，沒有辦法得到 stack traces。 沒辦法彙整 kernel 故障事件。 自動化工具需要工程師足夠的重視。 手機不夠強來跑動態分析工具。</div>
-          <div class="ja-JP">これは日本語です。</div>
+          <div class="ja-JP">Gaia アプリがクラッシュした際にスタックトレースがない問題、カーネルの問題を収集する術がない、自動化フレームワークには開発者の注目が必要、動的解析ツールを使うにはデバイスのスペックが充分ではない</div>
         </footer>
       </section>
     </div></div>
@@ -940,32 +940,32 @@
           <div class="en-US"><h2>Factors for success</h2></div>
           <div class="zh-CN"><h2>成功因素</h2></div>
           <div class="zh-TW"><h2>成功因素</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>成功の秘訣</h2></div>
         </header>
         <ul>
           <li>
             <div class="en-US">Patches land on the trunk (master) first</div>
             <div class="zh-CN">修补程序先输入 trunk (master)</div>
             <div class="zh-TW">Patches land on the trunk (master) first</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">パッチが trunk (master) に最初に land すること</div>
           </li>
           <li>
             <div class="en-US">Backout when regressions occur</div>
             <div class="zh-CN">将不好的补丁退出来</div>
             <div class="zh-TW">將不好的 patch 退出來</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">リグレッションが起きたらバックアウトすること</div>
           </li>
           <li>
             <div class="en-US">Fuzzblockers are fixed</div>
             <div class="zh-CN">修理模糊测试严重的 bug</div>
             <div class="zh-TW">修理模糊測試嚴重的 bug</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">Fuzzblocker が修正されること</div>
           </li>
           <li>
             <div class="en-US">Tests are rarely disabled</div>
             <div class="zh-CN">测试案例很少被关闭</div>
             <div class="zh-TW">測試案例很少被關閉</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">テストがほとんど無効にされないこと</div>
           </li>
         </ul>
         <footer class="notes">
@@ -979,51 +979,51 @@
           <div class="en-US"><h2>Suggested automation building blocks</h2></div>
           <div class="zh-CN"><h2>建议自动化的组件</h2></div>
           <div class="zh-TW"><h2>建議自動化的組件</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>自動化のために</h2></div>
         </header>
         <ul>
           <li>
             <div class="en-US">Input creation (the fuzzer)</div>
             <div class="zh-CN">制造输入（模糊测试程序）</div>
             <div class="zh-TW">製造輸入（模糊測試程式）</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">入力の生成（ファザー）</div>
           </li>
           <li>
             <div class="en-US">Instrumentation</div>
             <div class="zh-CN">仪表工具</div>
             <div class="zh-TW">Instrumentation</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">計測ツール</div>
           </li>
           <li>
             <div class="en-US">Monitoring</div>
             <div class="zh-CN">监测</div>
             <div class="zh-TW">監測</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">モニタリング</div>
           </li>
           <li>
             <div class="en-US">Log bucketing</div>
             <div class="zh-CN">记录铲装</div>
             <div class="zh-TW">Log bucketing</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">ログバケット</div>
           </li>
           <li>
             <div class="en-US">Testcase reduction</div>
             <div class="zh-CN">Testcase reduction</div>
             <div class="zh-TW">Testcase reduction</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">テストケースの reduction</div>
           </li>
           <li>
             <div class="en-US">Bisection</div>
             <div class="zh-CN">二分法结果</div>
             <div class="zh-TW">二分法結果</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">Bisection</div>
           </li>
         </ul>
         <footer class="notes">
           <div class="en-US">The workflow start should result in a workflow ending consisting of reduced testcases with bisection results. Results can also end up in a dashboard.</div>
           <div class="zh-CN">流程开头应该让一个涵盖最小测试案例的结果，也需要有二分法的结果。 测试案例也可以在一个仪表 (dashboard) 上收集。</div>
           <div class="zh-TW">流程開頭應該讓一個涵蓋最小測試案例的結果，也需要有二分法的結果。 測試案例也可以在一個儀表 (dashboard) 上收集。</div>
-          <div class="ja-JP">これは日本語です。</div>
+          <div class="ja-JP">ワークフローは reduction 済みのテストケース、結果が bisection であるものからなるようにすべき。結果はダッシュボードに現れてもよし。</div>
         </footer>
       </section>
     </div></div>
@@ -1034,7 +1034,7 @@
           <div class="en-US"><h2>How the fuzzing team can advise</h2></div>
           <div class="zh-CN"><h2>模糊测试组给 Firefox OS 组的建议</h2></div>
           <div class="zh-TW"><h2>模糊測試組給 Firefox OS 組的建議</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>ファジングチームからのアドバイス</h2></div>
         </header>
         <ul>
           <li>
@@ -1044,7 +1044,7 @@
                 <div class="en-US">Write a new DOMFuzz module for a phone-specific API</div>
                 <div class="zh-CN">为手机专用的 API 而写新的 DOMFuzz 模组</div>
                 <div class="zh-TW">為手機專用的 API 而寫新的 DOMFuzz 模組</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">電話特化な API のための新しい DOMFuzz モジュールを書こう</div>
               </li>
               <li><a href="https://github.com/MozillaSecurity/lithium">lithium</a></li>
             </ul>
@@ -1061,7 +1061,7 @@
           <div class="en-US"><a href="https://github.com/MozillaSecurity/lithium">lithium</a>: Testcase reducer.</div>
           <div class="zh-CN"><a href="https://github.com/MozillaSecurity/lithium">lithium</a>: 能将测试案例缩小的程序。</div>
           <div class="zh-TW"><a href="https://github.com/MozillaSecurity/lithium">lithium</a>: 能將測試案例縮減的程式。</div>
-          <div class="ja-JP">これは日本語です。</div>
+          <div class="ja-JP"><a href="https://github.com/MozillaSecurity/lithium">lithium</a>: テストケースの reducer。</div>
         </footer>
       </section>
     </div></div>
@@ -1072,7 +1072,7 @@
           <div class="en-US"><h2>How the fuzzing team can advise (cont'd)</h2></div>
           <div class="zh-CN"><h2>模糊测试组给 Firefox OS 组的建议（续）</h2></div>
           <div class="zh-TW"><h2>模糊測試組給 Firefox OS 組的建議（續）</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>ファジングチームからのアドバイス</h2></div>
         </header>
         <ul>
           <li>
@@ -1082,7 +1082,7 @@
                 <div class="en-US">Phone kernel, USB, MTP</div>
                 <div class="zh-CN">手机内核，USB, MTP</div>
                 <div class="zh-TW">手機 kernel，USB, MTP</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">電話カーネル、USB、MTP</div>
               </li>
               <li><a href="https://github.com/blackberry/ALF">ALF</a></li>
             </ul>
@@ -1094,7 +1094,7 @@
                 <div class="en-US">Gaia touch events</div>
                 <div class="zh-CN">Gaia touch events</div>
                 <div class="zh-TW">Gaia touch events</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">Gaia のタッチイベント</div>
               </li>
               <li>
                 <a href="https://github.com/MozillaSecurity/marifuzz">marifuzz</a>
@@ -1113,7 +1113,7 @@
           <div class="en-US"><h2>Mozilla fuzzing presentations</h2></div>
           <div class="zh-CN"><h2>Mozilla 模糊测试演讲目录</h2></div>
           <div class="zh-TW"><h2>Mozilla 模糊測試演講目錄</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>Mozilla のファジング関連トーク</h2></div>
         </header>
         <ul>
           <li>
@@ -1123,13 +1123,13 @@
             <div class="en-US"><a href="https://garykwong.wordpress.com/2012/01/28/fuzzing-at-mozilla-brown-bag-on-january-30-1pm-pt/">Fuzzing at Mozilla</a> (with video) - Gary Kwong, 2012</div>
             <div class="zh-CN"><a href="https://garykwong.wordpress.com/2012/01/28/fuzzing-at-mozilla-brown-bag-on-january-30-1pm-pt/">Fuzzing at Mozilla</a> （包含视频） - Gary Kwong, 2012</div>
             <div class="zh-TW"><a href="https://garykwong.wordpress.com/2012/01/28/fuzzing-at-mozilla-brown-bag-on-january-30-1pm-pt/">Fuzzing at Mozilla</a> （包含視頻） - Gary Kwong, 2012</div>
-            <div class="ja-JP"><a href="https://garykwong.wordpress.com/2012/01/28/fuzzing-at-mozilla-brown-bag-on-january-30-1pm-pt/">Fuzzing at Mozilla</a> (with video) - Gary Kwong, 2012</div>
+            <div class="ja-JP"><a href="https://garykwong.wordpress.com/2012/01/28/fuzzing-at-mozilla-brown-bag-on-january-30-1pm-pt/">Fuzzing at Mozilla</a> (動画あり) - Gary Kwong, 2012</div>
           </li>
           <li>
             <div class="en-US"><a href="https://github.com/search?q=user%3Anth10sd+presentation">My other presentations available online</a></div>
             <div class="zh-CN"><a href="https://github.com/search?q=user%3Anth10sd+presentation">其他的网上演讲</a></div>
             <div class="zh-TW"><a href="https://github.com/search?q=user%3Anth10sd+presentation">其他的網上演講</a></div>
-            <div class="ja-JP"><a href="https://github.com/search?q=user%3Anth10sd+presentation">これは日本語です。</a></div>
+            <div class="ja-JP"><a href="https://github.com/search?q=user%3Anth10sd+presentation">他のプレゼンテーションはこちら</a></div>
           </li>
         </ul>
         <footer class="notes">
@@ -1143,7 +1143,7 @@
           <div class="en-US"><h2>Mozilla Security GitHub projects</h2></div>
           <div class="zh-CN"><h2>Mozilla Security GitHub projects</h2></div>
           <div class="zh-TW"><h2>Mozilla Security GitHub projects</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>Mozilla Security GitHub projects</h2></div>
         </header>
         <ul>
           <li>
@@ -1153,7 +1153,7 @@
                 <div class="en-US">jsfunfuzz &amp; DOMFuzz harness</div>
                 <div class="zh-CN">jsfunfuzz &amp; DOMFuzz 工具</div>
                 <div class="zh-TW">jsfunfuzz &amp; DOMFuzz 工具</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">jsfunfuzz &amp; DOMFuzz ハーネス</div>
               </li>
             </ul>
           </li>
@@ -1164,7 +1164,7 @@
                 <div class="en-US">Fuzzing management tools collection</div>
                 <div class="zh-CN">模糊测试工具管理集</div>
                 <div class="zh-TW">模糊測試工具管理集</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">ファジング管理ツール集</div>
               </li>
             </ul>
           </li>
@@ -1175,7 +1175,7 @@
                 <div class="en-US">Tool to manage EC2 instances at AWS</div>
                 <div class="zh-CN">在 AWS 管理 EC2 的实例工具</div>
                 <div class="zh-TW">在 AWS 管理 EC2 的實例工具</div>
-                <div class="ja-JP">これは日本語です。</div>
+                <div class="ja-JP">AWS の EC2 インスタンス管理ツール</div>
               </li>
             </ul>
           </li>
@@ -1191,7 +1191,7 @@
           <div class="en-US"><h2>Q&amp;A</h2></div>
           <div class="zh-CN"><h2>问与答</h2></div>
           <div class="zh-TW"><h2>問與答</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>Q&amp;A</h2></div>
         </header>
         <footer class="notes">
         </footer>
@@ -1204,7 +1204,7 @@
           <div class="en-US"><h2>Conclusion</h2></div>
           <div class="zh-CN"><h2>结论</h2></div>
           <div class="zh-TW"><h2>結論</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>まとめ</h2></div>
         </header>
         <footer class="notes">
         </footer>
@@ -1217,7 +1217,7 @@
           <div class="en-US"><h2>Thanks</h2></div>
           <div class="zh-CN"><h2>谢谢大家</h2></div>
           <div class="zh-TW"><h2>謝謝大家</h2></div>
-          <div class="ja-JP"><h2>これは日本語です。</h2></div>
+          <div class="ja-JP"><h2>Thanks</h2></div>
         </header>
         <img src="pictures/redpanda.jpg" class="right" alt="Red panda (Firefox)">
         <ul class="nobull">
@@ -1225,31 +1225,31 @@
             <div class="en-US">Mozilla Platform Fuzzing team</div>
             <div class="zh-CN"> Mozilla 平台模糊测试组</div>
             <div class="zh-TW"> Mozilla 平台模糊測試組</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">Mozilla Platform Fuzzing team</div>
           </li>
           <li>
             <div class="en-US">Translators</div>
             <div class="zh-CN">翻译</div>
             <div class="zh-TW">翻譯</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">Translators</div>
           </li>
           <li>
             <div class="en-US">Developers</div>
             <div class="zh-CN">软体工程师</div>
             <div class="zh-TW">軟體工程師</div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">Developers</div>
           </li>
           <li>
             <div class="en-US">Photo by <a href="http://www.flickr.com/photos/yortw/5798336827/">Yortw</a></div>
             <div class="zh-CN">图像来自 <a href="http://www.flickr.com/photos/yortw/5798336827/">Yortw</a></div>
             <div class="zh-TW">圖像來自 <a href="http://www.flickr.com/photos/yortw/5798336827/">Yortw</a></div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP">Photo by <a href="http://www.flickr.com/photos/yortw/5798336827/">Yortw</a></div>
           </li>
           <li>
             <div class="en-US"><a href="https://www.mozilla.org/en-US/styleguide/communications/presentations/">Mozilla Style</a> template</div>
             <div class="zh-CN">模版来自<a href="https://www.mozilla.org/en-US/styleguide/communications/presentations/"> Mozilla 样式指南</a></div>
             <div class="zh-TW">模板來自<a href="https://www.mozilla.org/en-US/styleguide/communications/presentations/"> Mozilla 樣式指南</a></div>
-            <div class="ja-JP">これは日本語です。</div>
+            <div class="ja-JP"><a href="https://www.mozilla.org/en-US/styleguide/communications/presentations/">Mozilla Style</a> template</div>
           </li>
           <li>
             <br/>
@@ -1273,7 +1273,7 @@
         <option value="en-US">English</option>
         <option value="zh-CN">中文（简体）</option>
         <option value="zh-TW">中文（繁體）</option>
-        <option value="ja-JP">日本語 DRAFT</option>
+        <option value="ja-JP">日本語</option>
       </select>
     </div>
     <script src="scripts/script.js"></script>
