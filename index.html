@@ -68,7 +68,9 @@
       A case study on the success of the fuzzing team working together with the JavaScript team will be described. Furthermore, he will also cover the potential pitfalls of this approach and conditions under which fuzzing can be most effective.</p></div>
       <div class="zh-CN"><p>Mozilla Gecko 的平台含有很多组件。 Firefox OS 也需要 Gecko，因此，现在需要越来越多测试来确保品质以及用户的安全。 在这个演讲中，资深安全工程师<u>邝子进</u>会描述有关模糊测试的工具，及建议自动化的组件和在流程中能够使用模糊测试的快速方法。 演讲也会提到关于模糊测试组如何和 JavaScript 组一起成功合作的案例。 此外，演讲中也会包含这种途径的潜在的困难，同时也描述了模糊测试最有效的环境。</p></div>
       <div class="zh-TW"><p>Mozilla Gecko 的平台含有很多組件。 Firefox OS 也需要 Gecko，因此，現在需要越來越多測試來確保品質以及用戶的安全。 在這個演講中，資深安全工程師<u>鄺子進</u>會描述有關模糊測試的工具，及建議自動化的組件和在流程中能夠使用模糊測試的快速方法。 演講也會提到關於模糊測試組如何和 JavaScript 組一起成功合作的案例。 此外，演講中也會包含這種途徑潛在的困難，同時也描述了模糊測試最有效的環境。</p></div>
-      <div class="ja-JP"><p>概要：Mozilla の Gecko プラットフォームには数多くの可動部分があります。Firefox OS への注力に伴い、品質とユーザの安全のためテストが必要な領域が数多く広がりました。このプレゼンテーションは、シニアセキュリティエンジニアのゲイリー・クォンが Mozilla 開発ワークフローでファジングがどのように活用されているか説明するものです。ファジングのツール、推奨される自動化部品やファジングをすぐに展開するための方法についてお話しします。ケーススタディとして、ファジングチームと JavaScript チームとのうまくいった共同作業も紹介します。さらに、このアプローチで考えられる落とし穴とファジングが最も効果的に利用できる状況についてもお話します。</p></div>
+      <div class="ja-JP"><p>概要：Mozilla の Gecko プラットフォームには数多くの可動部分があります。Firefox OS への注力に伴い、品質とユーザの安全のためテストが必要な領域が数多く広がりました。
+      このプレゼンテーションは、シニアセキュリティエンジニアのゲイリー・クォンが Mozilla 開発ワークフローでファジングがどのように活用されているか説明するものです。ファジングのツール、推奨される自動化部品やファジングをすぐに展開するための方法についてお話しします。
+      ケーススタディとして、ファジングチームと JavaScript チームとのうまくいった共同作業も紹介します。さらに、このアプローチで考えられる落とし穴とファジングが最も効果的に利用できる状況についてもお話します。</p></div>
     </aside>
     <!--
     Simply copy the whole block for each slide you want.
@@ -111,7 +113,7 @@
             <div class="en-US">Why is fuzzing successful?</div>
             <div class="zh-CN">为什么模糊测试会成功？</div>
             <div class="zh-TW">為什麼模糊測試會成功？</div>
-            <div class="ja-JP">ファジングが成功したのは？</div>
+            <div class="ja-JP">ファジングが成功したのはなぜか？</div>
           </li>
           <li>
             <div class="en-US">What parts of Firefox OS to fuzz?</div>
@@ -156,7 +158,7 @@
           <div class="en-US"><p>the people writing and running fuzzers are by far the most effective QA people at Mozilla.</p></div>
           <div class="zh-CN"><p>在 Mozilla，使用模糊测试是最有效使用 QA（确保品质） 人力的方式。</p></div>
           <div class="zh-TW"><p>在 Mozilla，使用模糊測試是最有效使用 QA(確保品質) 人力的方式。</p></div>
-          <div class="ja-JP"><p>ファザーを書いて実行する人たちは、Mozilla でもっとも強力な QA （品質保証）の人だ。</p></div>
+          <div class="ja-JP"><p>ファザーを書いて実行する人たちは、Mozilla で圧倒的に最強な QA （品質保証）の人だ。</p></div>
           <div class="en-US"><p class="byline"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/comment-page-1/#comment-29260">Nicholas Nethercote</a>, <a href="https://wiki.mozilla.org/Performance/MemShrink">MemShrink</a> &amp; Low Level Tools Team Manager at Mozilla</p></div>
           <div class="zh-CN"><p class="byline"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/comment-page-1/#comment-29260">Nicholas Nethercote</a>, 负责 <a href="https://wiki.mozilla.org/Performance/MemShrink">MemShrink</a> 和底层工具的 Mozilla 经理</p></div>
           <div class="zh-TW"><p class="byline"><a href="http://www.squarefree.com/2015/07/28/releasing-jsfunfuzz-and-domfuzz/comment-page-1/#comment-29260">Nicholas Nethercote</a>, 負責 <a href="https://wiki.mozilla.org/Performance/MemShrink">MemShrink</a> 和底層工具的 Mozilla 經理</p></div>
@@ -305,7 +307,7 @@
           <div class="en-US"><h2>List of fuzzing tools (cont'd)</h2></div>
           <div class="zh-CN"><h2>模糊测试工具目录（续）</h2></div>
           <div class="zh-TW"><h2>模糊測試工具目錄（續）</h2></div>
-          <div class="ja-JP"><h2>ファンジングツール</h2></div>
+          <div class="ja-JP"><h2>ファンジングツール一覧(続き)</h2></div>
         </header>
         <ul>
           <li>
@@ -348,7 +350,7 @@
           <div class="en-US"><h2>Why is fuzzing successful?</h2></div>
           <div class="zh-CN"><h2>为什么模糊测试会成功？</h2></div>
           <div class="zh-TW"><h2>為什麼模糊測試會成功？</h2></div>
-          <div class="ja-JP"><h2>ファジングが成功したのは？</h2></div>
+          <div class="ja-JP"><h2>ファジングが成功したのはなぜか？</h2></div>
         </header>
         <ul>
           <li>
@@ -398,7 +400,7 @@
           <div class="en-US"><h2>Why is fuzzing successful? (cont'd)</h2></div>
           <div class="zh-CN"><h2>为什么模糊测试会成功？（续）</h2></div>
           <div class="zh-TW"><h2>為什麼模糊測試會成功？（續）</h2></div>
-          <div class="ja-JP"><h2>ファジングが成功したのは？</h2></div>
+          <div class="ja-JP"><h2>ファジングが成功したのはなぜか(続き)？</h2></div>
         </header>
         <ul>
           <li>Black Hat USA 2005 - <a href="https://youtu.be/GABsy25AaXY">The Art of File Format Fuzzing</a></li>
@@ -581,7 +583,7 @@
             <div class="en-US">Can be tested on Firefox Desktop</div>
             <div class="zh-CN">可以在 Firefox Desktop 测试</div>
             <div class="zh-TW">可以在 Firefox Desktop 測試</div>
-            <div class="ja-JP">Firefox デスクトップでテスト可能なもの</div>
+            <div class="ja-JP">デスクトップ版 Firefox でテスト可能なもの</div>
           </li>
           <li>
             <div class="en-US">What else?</div>
@@ -698,7 +700,7 @@
           <div class="en-US"><h2>Case study: JavaScript team (cont'd)</h2></div>
           <div class="zh-CN"><h2>案例分析：JavaScript 组（续）</h2></div>
           <div class="zh-TW"><h2>案例分析：JavaScript 組（續）</h2></div>
-          <div class="ja-JP"><h2>ケーススタディ：JavaScript チーム</h2></div>
+          <div class="ja-JP"><h2>ケーススタディ：JavaScript チーム(続き)</h2></div>
         </header>
         <ul>
           <li>
@@ -1015,7 +1017,7 @@
             <div class="en-US">Testcase reduction</div>
             <div class="zh-CN">Testcase reduction</div>
             <div class="zh-TW">Testcase reduction</div>
-            <div class="ja-JP">テストケースの reduction</div>
+            <div class="ja-JP">テストケースの削減</div>
           </li>
           <li>
             <div class="en-US">Bisection</div>
@@ -1028,7 +1030,7 @@
           <div class="en-US">The workflow start should result in a workflow ending consisting of reduced testcases with bisection results. Results can also end up in a dashboard.</div>
           <div class="zh-CN">流程开头应该让一个涵盖最小测试案例的结果，也需要有二分法的结果。 测试案例也可以在一个仪表 (dashboard) 上收集。</div>
           <div class="zh-TW">流程開頭應該讓一個涵蓋最小測試案例的結果，也需要有二分法的結果。 測試案例也可以在一個儀表 (dashboard) 上收集。</div>
-          <div class="ja-JP">ワークフローは reduction 済みのテストケース、結果が bisection であるものからなるようにすべき。結果はダッシュボードに現れてもよし。</div>
+          <div class="ja-JP">ワークフローは削減済みのテストケース、結果が bisection であるものからなるようにすべき。結果はダッシュボードに現れてもよし。</div>
         </footer>
       </section>
     </div></div>
@@ -1066,7 +1068,7 @@
           <div class="en-US"><a href="https://github.com/MozillaSecurity/lithium">lithium</a>: Testcase reducer.</div>
           <div class="zh-CN"><a href="https://github.com/MozillaSecurity/lithium">lithium</a>: 能将测试案例缩小的程序。</div>
           <div class="zh-TW"><a href="https://github.com/MozillaSecurity/lithium">lithium</a>: 能將測試案例縮減的程式。</div>
-          <div class="ja-JP"><a href="https://github.com/MozillaSecurity/lithium">lithium</a>: テストケースの reducer。</div>
+          <div class="ja-JP"><a href="https://github.com/MozillaSecurity/lithium">lithium</a>: テストケースの削減ツール。</div>
         </footer>
       </section>
     </div></div>
@@ -1077,7 +1079,7 @@
           <div class="en-US"><h2>How the fuzzing team can advise (cont'd)</h2></div>
           <div class="zh-CN"><h2>模糊测试组给 Firefox OS 组的建议（续）</h2></div>
           <div class="zh-TW"><h2>模糊測試組給 Firefox OS 組的建議（續）</h2></div>
-          <div class="ja-JP"><h2>ファジングチームからのアドバイス</h2></div>
+          <div class="ja-JP"><h2>ファジングチームからのアドバイス(続き)</h2></div>
         </header>
         <ul>
           <li>
@@ -1236,13 +1238,13 @@
             <div class="en-US">Translators</div>
             <div class="zh-CN">翻译</div>
             <div class="zh-TW">翻譯</div>
-            <div class="ja-JP">Translators</div>
+            <div class="ja-JP">翻訳者</div>
           </li>
           <li>
             <div class="en-US">Developers</div>
             <div class="zh-CN">软体工程师</div>
             <div class="zh-TW">軟體工程師</div>
-            <div class="ja-JP">Developers</div>
+            <div class="ja-JP">開発者</div>
           </li>
           <li>
             <div class="en-US">Photo by <a href="http://www.flickr.com/photos/yortw/5798336827/">Yortw</a></div>
