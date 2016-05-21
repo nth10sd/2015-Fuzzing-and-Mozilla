@@ -63,12 +63,12 @@
       <button onclick="goFullScreen()">Go fullscreen</button>
       <br/>
       <br/>
-      <div class="en-US"><p>Abstract: The Mozilla Gecko platform has many moving parts. With the move into Firefox OS, there are increasingly more areas which need testing to ensure good quality and safety of the users.
+      <div class="en-US"><p>Abstract: The Mozilla Gecko platform has many moving parts. There are increasingly more areas which need testing to ensure good quality and safety of the users.
         In this presentation, Senior Security Engineer Gary Kwong will describe how fuzzing can be leveraged in the Mozilla development workflow. Gary will talk about fuzzing tools, suggested automation building blocks and ways to start deploying fuzzing quickly.
       A case study on the success of the fuzzing team working together with the JavaScript team will be described. Furthermore, he will also cover the potential pitfalls of this approach and conditions under which fuzzing can be most effective.</p></div>
-      <div class="zh-CN"><p>Mozilla Gecko 的平台含有很多组件。 Firefox OS 也需要 Gecko，因此，现在需要越来越多测试来确保品质以及用户的安全。 在这个演讲中，资深安全工程师<u>邝子进</u>会描述有关模糊测试的工具，及建议自动化的组件和在流程中能够使用模糊测试的快速方法。 演讲也会提到关于模糊测试组如何和 JavaScript 组一起成功合作的案例。 此外，演讲中也会包含这种途径的潜在的困难，同时也描述了模糊测试最有效的环境。</p></div>
-      <div class="zh-TW"><p>Mozilla Gecko 的平台含有很多組件。 Firefox OS 也需要 Gecko，因此，現在需要越來越多測試來確保品質以及用戶的安全。 在這個演講中，資深安全工程師<u>鄺子進</u>會描述有關模糊測試的工具，及建議自動化的組件和在流程中能夠使用模糊測試的快速方法。 演講也會提到關於模糊測試組如何和 JavaScript 組一起成功合作的案例。 此外，演講中也會包含這種途徑潛在的困難，同時也描述了模糊測試最有效的環境。</p></div>
-      <div class="ja-JP"><p>概要：Mozilla の Gecko プラットフォームには数多くの可動部分があります。Firefox OS への注力に伴い、品質とユーザの安全のためテストが必要な領域が数多く広がりました。
+      <div class="zh-CN"><p>Mozilla Gecko 的平台含有很多组件。 现在需要越来越多测试来确保品质以及用户的安全。 在这个演讲中，资深安全工程师<u>邝子进</u>会描述有关模糊测试的工具，及建议自动化的组件和在流程中能够使用模糊测试的快速方法。 演讲也会提到关于模糊测试组如何和 JavaScript 组一起成功合作的案例。 此外，演讲中也会包含这种途径的潜在的困难，同时也描述了模糊测试最有效的环境。</p></div>
+      <div class="zh-TW"><p>Mozilla Gecko 的平台含有很多組件。 現在需要越來越多測試來確保品質以及用戶的安全。 在這個演講中，資深安全工程師<u>鄺子進</u>會描述有關模糊測試的工具，及建議自動化的組件和在流程中能夠使用模糊測試的快速方法。 演講也會提到關於模糊測試組如何和 JavaScript 組一起成功合作的案例。 此外，演講中也會包含這種途徑潛在的困難，同時也描述了模糊測試最有效的環境。</p></div>
+      <div class="ja-JP"><p>概要：Mozilla の Gecko プラットフォームには数多くの可動部分があります。品質とユーザの安全のためテストが必要な領域が数多く広がりました。
       このプレゼンテーションは、シニアセキュリティエンジニアのゲイリー・クォンが Mozilla 開発ワークフローでファジングがどのように活用されているか説明するものです。ファジングのツール、推奨される自動化部品やファジングをすぐに展開するための方法についてお話しします。
       ケーススタディとして、ファジングチームと JavaScript チームとのうまくいった共同作業も紹介します。さらに、このアプローチで考えられる落とし穴とファジングが最も効果的に利用できる状況についてもお話します。</p></div>
     </aside>
@@ -114,12 +114,6 @@
             <div class="zh-CN">为什么模糊测试会成功？</div>
             <div class="zh-TW">為什麼模糊測試會成功？</div>
             <div class="ja-JP">ファジングが成功したのはなぜか？</div>
-          </li>
-          <li>
-            <div class="en-US">What parts of Firefox OS to fuzz?</div>
-            <div class="zh-CN">应该模糊测试 Firefox OS 的哪些部分？</div>
-            <div class="zh-TW">應該模糊測試 Firefox OS 的哪些部分？</div>
-            <div class="ja-JP">Firefox OS のどこでファジングをするか？</div>
           </li>
           <li>
             <div class="en-US">Tips for effective fuzzing</div>
@@ -464,42 +458,6 @@
       </section>
     </div></div>
     <!-- end slide block -->
-    <div id="hoststargets" class="slide"><div>
-      <section>
-        <header>
-          <div class="en-US"><h2>Potential hosts / targets</h2></div>
-          <div class="zh-CN"><h2>潜在主机／目标</h2></div>
-          <div class="zh-TW"><h2>潛在主機／目標</h2></div>
-          <div class="ja-JP"><h2>潜在ホスト・ターゲット</h2></div>
-        </header>
-        <ul>
-          <li>
-            <div class="en-US">Phones</div>
-            <div class="zh-CN">手机</div>
-            <div class="zh-TW">手機</div>
-            <div class="ja-JP">ケータイ・スマホ</div>
-          </li>
-          <li>
-            <div class="en-US">Emulators</div>
-            <div class="zh-CN">模拟器</div>
-            <div class="zh-TW">模擬器</div>
-            <div class="ja-JP">エミュレータ</div>
-          </li>
-          <li>
-            <a href="https://wiki.mozilla.org/Mulet">Mulet</a> / B2G Desktop
-          </li>
-          <li>
-            <div class="en-US">What else do you think should be added?</div>
-            <div class="zh-CN">更多。。。</div>
-            <div class="zh-TW">更多。。。</div>
-            <div class="ja-JP">ほかにもあるかな…？</div>
-          </li>
-        </ul>
-        <footer class="notes">
-        </footer>
-      </section>
-    </div></div>
-    <!-- end slide block -->
     <div id="lowhangingfruit" class="slide"><div>
       <section>
         <header>
@@ -585,24 +543,6 @@
             <div class="ja-JP">隔離モジュール</div>
           </li>
           <li>
-            <div class="en-US">Gaia for user-facing bugs</div>
-            <div class="zh-CN">Gaia（面对用户的问题）</div>
-            <div class="zh-TW">Gaia（面對用戶的問題）</div>
-            <div class="ja-JP">Gaia（ユーザー）</div>
-          </li>
-          <li>
-            <div class="en-US">DOM phone-specific APIs</div>
-            <div class="zh-CN">手机专用的 DOM API</div>
-            <div class="zh-TW">手機專用的 DOM API</div>
-            <div class="ja-JP">電話専用 DOM API</div>
-          </li>
-          <li>
-            <div class="en-US">Gonk / phone kernel</div>
-            <div class="zh-CN">Gonk / 手机内核</div>
-            <div class="zh-TW">Gonk / 手機 kernel</div>
-            <div class="ja-JP">Gonk / 電話カーネル</div>
-          </li>
-          <li>
             <div class="en-US">Can be tested on Firefox Desktop</div>
             <div class="zh-CN">可以在 Firefox Desktop 测试</div>
             <div class="zh-TW">可以在 Firefox Desktop 測試</div>
@@ -615,19 +555,6 @@
             <div class="ja-JP">ほかには…？</div>
           </li>
         </ul>
-        <footer class="notes">
-        </footer>
-      </section>
-    </div></div>
-    <!-- end slide block -->
-    <div id="marifuzzdemo" class="slide oneline"><div>
-      <section>
-        <header>
-          <div class="en-US"><h2>marifuzz demo (PoC)</h2></div>
-          <div class="zh-CN"><h2>marifuzz 概念示范</h2></div>
-          <div class="zh-TW"><h2>marifuzz 概念示範</h2></div>
-          <div class="ja-JP"><h2>marifuzz のデモ</h2></div>
-        </header>
         <footer class="notes">
         </footer>
       </section>
@@ -935,18 +862,6 @@ A comprehensive fuzz bug report can also provide more information on how to fix 
         </header>
         <ul>
           <li>
-            <div class="en-US">Gaia stack traces</div>
-            <div class="zh-CN">Gaia stack traces</div>
-            <div class="zh-TW">Gaia stack traces</div>
-            <div class="ja-JP">Gaia のスタックトレース</div>
-          </li>
-          <li>
-            <div class="en-US">Kernel failures</div>
-            <div class="zh-CN">内核故障</div>
-            <div class="zh-TW">Kernel 故障</div>
-            <div class="ja-JP">カーネルの問題</div>
-          </li>
-          <li>
             <div class="en-US">Automation frameworks</div>
             <div class="zh-CN">自动化工具</div>
             <div class="zh-TW">自動化工具</div>
@@ -1058,85 +973,6 @@ A comprehensive fuzz bug report can also provide more information on how to fix 
           <div class="zh-CN">流程开头应该让一个涵盖最小测试案例的结果，也需要有二分法的结果。 测试案例也可以在一个仪表 (dashboard) 上收集。</div>
           <div class="zh-TW">流程開頭應該讓一個涵蓋最小測試案例的結果，也需要有二分法的結果。 測試案例也可以在一個儀表 (dashboard) 上收集。</div>
           <div class="ja-JP">ワークフローは削減済みのテストケース、結果が bisection であるものからなるようにすべき。結果はダッシュボードに現れてもよし。</div>
-        </footer>
-      </section>
-    </div></div>
-    <!-- end slide block -->
-    <div id="howfuzzingteamhelps" class="slide"><div>
-      <section>
-        <header>
-          <div class="en-US"><h2>How the fuzzing team can advise</h2></div>
-          <div class="zh-CN"><h2>模糊测试组给 Firefox OS 组的建议</h2></div>
-          <div class="zh-TW"><h2>模糊測試組給 Firefox OS 組的建議</h2></div>
-          <div class="ja-JP"><h2>ファジングチームからのアドバイス</h2></div>
-        </header>
-        <ul>
-          <li>
-            Jesse Ruderman [:Jesse] <a href="https://twitter.com/jruderman">@jruderman</a>
-            <ul>
-              <li>
-                <div class="en-US">Write a new DOMFuzz module for a phone-specific API</div>
-                <div class="zh-CN">为手机专用的 API 而写新的 DOMFuzz 模组</div>
-                <div class="zh-TW">為手機專用的 API 而寫新的 DOMFuzz 模組</div>
-                <div class="ja-JP">電話特化な API のための新しい DOMFuzz モジュールを書こう</div>
-              </li>
-              <li><a href="https://github.com/MozillaSecurity/lithium">lithium</a></li>
-            </ul>
-          </li>
-          <li>
-            Christoph Diehl [:cdiehl] <a href="https://twitter.com/posidron">@posidron</a>
-            <ul>
-              <li>IPC/IPDL, NFC, WebRTC, PDU, Bluetooth, HCI, USB</li>
-              <li><a href="https://github.com/MozillaSecurity/laniakea/">Laniakea</a>, <a href="https://github.com/mozillasecurity/dharma">Dharma</a>, <a href="https://github.com/MozillaSecurity/Peach">Peach</a></li>
-            </ul>
-          </li>
-        </ul>
-        <footer class="notes">
-          <div class="en-US"><a href="https://github.com/MozillaSecurity/lithium">lithium</a>: Testcase reducer.</div>
-          <div class="zh-CN"><a href="https://github.com/MozillaSecurity/lithium">lithium</a>: 能将测试案例缩小的程序。</div>
-          <div class="zh-TW"><a href="https://github.com/MozillaSecurity/lithium">lithium</a>: 能將測試案例縮減的程式。</div>
-          <div class="ja-JP"><a href="https://github.com/MozillaSecurity/lithium">lithium</a>: テストケースの削減ツール。</div>
-        </footer>
-      </section>
-    </div></div>
-    <!-- end slide block -->
-    <div id="howfuzzingteamhelps2" class="slide"><div>
-      <section>
-        <header>
-          <div class="en-US"><h2>How the fuzzing team can advise (cont'd)</h2></div>
-          <div class="zh-CN"><h2>模糊测试组给 Firefox OS 组的建议（续）</h2></div>
-          <div class="zh-TW"><h2>模糊測試組給 Firefox OS 組的建議（續）</h2></div>
-          <div class="ja-JP"><h2>ファジングチームからのアドバイス(続き)</h2></div>
-        </header>
-        <ul>
-          <li>
-            Tyson Smith [:tsmith]
-            <ul>
-              <li>
-                <div class="en-US">Phone kernel, USB, MTP</div>
-                <div class="zh-CN">手机内核，USB, MTP</div>
-                <div class="zh-TW">手機 kernel，USB, MTP</div>
-                <div class="ja-JP">電話カーネル、USB、MTP</div>
-              </li>
-              <li><a href="https://github.com/blackberry/ALF">ALF</a></li>
-            </ul>
-          </li>
-          <li>
-            Gary Kwong [:gkw] <a href="https://twitter.com/nth10sd">@nth10sd</a>
-            <ul>
-              <li>
-                <div class="en-US">Gaia touch events</div>
-                <div class="zh-CN">Gaia touch events</div>
-                <div class="zh-TW">Gaia touch events</div>
-                <div class="ja-JP">Gaia のタッチイベント</div>
-              </li>
-              <li>
-                <a href="https://github.com/MozillaSecurity/marifuzz">marifuzz</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <footer class="notes">
         </footer>
       </section>
     </div></div>
