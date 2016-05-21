@@ -1,4 +1,4 @@
-## Slides on fuzzing and Mozilla in 2015
+## Slides on fuzzing and Mozilla in 2016 (originally for 2015)
 #### ... and where fuzzing sits in a Mozilla workflow.
 
 ##### View it online in various languages:
@@ -10,7 +10,7 @@
 Pull requests for corrections and additional translations are most welcome!
 
 ## Talk description
-This presentation describes where fuzzing sits in a Mozilla development workflow in 2015.
+This presentation describes where fuzzing sits in a Mozilla development workflow in 2016 (originally for 2015).
 
 It will mention how you can leverage it in your workflow to make development more efficient, and will not cover fuzzing itself in detail.
 
